@@ -85,4 +85,4 @@ Replay a SIMP cell with `python FINAL_DEV/simp/replay_simp.py FINAL_DEV/simp/eva
 
 ## Licence
 
-No licence has been chosen yet. The material is provided for review and reproduction.
+MIT; see `LICENSE`. Third-party packages are installed separately and keep their own licences (`THIRD_PARTY_NOTICES.md`).
