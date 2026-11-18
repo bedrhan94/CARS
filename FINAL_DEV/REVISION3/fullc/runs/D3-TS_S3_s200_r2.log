@@ -1,0 +1,7 @@
+SUMMARY {"arm": "Bfs", "measured_s": 1.3268091999925673, "certified_target": 21}
+SUMMARY {"arm": "D2fs", "measured_s": 1.3013147999881767, "certified_target": 21}
+SUMMARY {"arm": "Bc", "measured_s": 1.3197729999374133, "certified_target": 21}
+SUMMARY {"arm": "D2c", "measured_s": 1.2719724999333266, "certified_target": 21}
+SUMMARY {"arm": "Bf", "measured_s": 1.29185800004052, "certified_target": 21}
+SUMMARY {"arm": "D2f", "measured_s": 1.2876215000578668, "certified_target": 21}
+CELL_DONE

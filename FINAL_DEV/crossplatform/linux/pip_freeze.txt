@@ -1,0 +1,12 @@
+cholespy==2.2.0
+intel-cmplr-lib-ur==2026.2.0
+intel-openmp==2026.2.0
+mkl==2026.2.1
+numpy==2.2.6
+psutil==7.1.3
+pypardiso==0.4.7
+python-flint==0.9.0
+scipy==1.15.3
+tbb==2023.2.0
+tcmlib==1.6.0
+umf==1.2.0

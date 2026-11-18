@@ -1,0 +1,5 @@
+SUMMARY {"arm": "Ds", "measured_s": 5.724621399975149, "certified_target": 21, "pardiso": {"sessions": 1, "analyses": 1, "t_analyse": 0.0449666999920737, "numeric": 5, "t_numeric": 0.38093629997456446, "t_envelope": 0.05782760000147391, "envelope_nnz": 994014, "analysed_nnz": [994014]}}
+SUMMARY {"arm": "B9", "measured_s": 4.032001999992644, "certified_target": 21, "pardiso": {"sessions": 1, "analyses": 2, "t_analyse": 0.09844919998431578, "numeric": 21, "t_numeric": 1.6148983999737538, "t_envelope": 0.0, "envelope_nnz": 0, "analysed_nnz": [993522, 993532]}}
+SUMMARY {"arm": "D", "measured_s": 5.781618599998183, "certified_target": 21, "pardiso": {"sessions": 1, "analyses": 2, "t_analyse": 0.09829130000434816, "numeric": 5, "t_numeric": 0.3913027999951737, "t_envelope": 0.0, "envelope_nnz": 0, "analysed_nnz": [993522, 993532]}}
+SUMMARY {"arm": "B9s", "measured_s": 4.073432000004686, "certified_target": 21, "pardiso": {"sessions": 1, "analyses": 1, "t_analyse": 0.04495159999351017, "numeric": 21, "t_numeric": 1.6000086000567535, "t_envelope": 0.05667869999888353, "envelope_nnz": 994014, "analysed_nnz": [994014]}}
+CELL_DONE

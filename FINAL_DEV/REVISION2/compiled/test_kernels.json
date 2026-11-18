@@ -1,0 +1,565 @@
+{
+ "eft_records": {
+  "E3-TS|S3|200": {
+   "records": 105,
+   "identical": 105
+  },
+  "E3-TS|S3|201": {
+   "records": 105,
+   "identical": 105
+  },
+  "E3-TS|S3|202": {
+   "records": 105,
+   "identical": 105
+  },
+  "E3-TS|S3|203": {
+   "records": 105,
+   "identical": 105
+  },
+  "E3-TS|S3|204": {
+   "records": 105,
+   "identical": 105
+  },
+  "D3-TS|S3|200": {
+   "records": 105,
+   "identical": 105
+  },
+  "D3-TS|S3|201": {
+   "records": 105,
+   "identical": 105
+  },
+  "D3-TS|S3|202": {
+   "records": 105,
+   "identical": 105
+  },
+  "D3-TS|S3|203": {
+   "records": 105,
+   "identical": 105
+  },
+  "D3-TS|S3|204": {
+   "records": 105,
+   "identical": 105
+  },
+  "E3-TS|S2|200": {
+   "records": 105,
+   "identical": 105
+  },
+  "E3-TS|S2|201": {
+   "records": 105,
+   "identical": 105
+  },
+  "E3-TS|S2|202": {
+   "records": 105,
+   "identical": 105
+  },
+  "E3-TS|S2|203": {
+   "records": 105,
+   "identical": 105
+  },
+  "E3-TS|S2|204": {
+   "records": 105,
+   "identical": 105
+  },
+  "D3-TS|S2|200": {
+   "records": 105,
+   "identical": 105
+  },
+  "D3-TS|S2|201": {
+   "records": 105,
+   "identical": 105
+  },
+  "D3-TS|S2|202": {
+   "records": 105,
+   "identical": 105
+  },
+  "D3-TS|S2|203": {
+   "records": 105,
+   "identical": 105
+  },
+  "D3-TS|S2|204": {
+   "records": 105,
+   "identical": 105
+  }
+ },
+ "eft_synthetic": {
+  "generic": {
+   "cases": 150,
+   "identical": 150,
+   "outcomes": [
+    "ok:eft"
+   ]
+  },
+  "near-solution": {
+   "cases": 150,
+   "identical": 150,
+   "outcomes": [
+    "ok:eft"
+   ]
+  },
+  "wide-exponent": {
+   "cases": 30,
+   "identical": 30,
+   "outcomes": [
+    "raise:NONFINITE"
+   ]
+  },
+  "nonfinite-input": {
+   "cases": 20,
+   "identical": 20,
+   "outcomes": [
+    "raise:NONFINITE"
+   ]
+  },
+  "split-overflow": {
+   "cases": 20,
+   "identical": 20,
+   "outcomes": [
+    "raise:NONFINITE"
+   ]
+  },
+  "tp-underflow": {
+   "cases": 20,
+   "identical": 20,
+   "outcomes": [
+    "ok:TWOPRODUCT_UNDERFLOW"
+   ]
+  },
+  "nonfinite-product": {
+   "cases": 20,
+   "identical": 20,
+   "outcomes": [
+    "raise:NONFINITE"
+   ]
+  },
+  "nonfinite-sum": {
+   "cases": 20,
+   "identical": 20,
+   "outcomes": [
+    "raise:NONFINITE"
+   ]
+  },
+  "large-bound": {
+   "cases": 20,
+   "identical": 20,
+   "outcomes": [
+    "raise:NONFINITE"
+   ]
+  },
+  "zero-x": {
+   "cases": 20,
+   "identical": 20,
+   "outcomes": [
+    "ok:eft"
+   ]
+  },
+  "explicit-zeros": {
+   "cases": 20,
+   "identical": 20,
+   "outcomes": [
+    "ok:eft"
+   ]
+  },
+  "subnormal-b": {
+   "cases": 20,
+   "identical": 20,
+   "outcomes": [
+    "ok:eft"
+   ]
+  },
+  "split-overflow-finite": {
+   "cases": 20,
+   "identical": 20,
+   "outcomes": [
+    "ok:SPLIT_OVERFLOW_RISK"
+   ]
+  },
+  "partial-underflow": {
+   "cases": 20,
+   "identical": 20,
+   "outcomes": [
+    "ok:TWOPRODUCT_UNDERFLOW"
+   ]
+  },
+  "nonfinite-b": {
+   "cases": 20,
+   "identical": 20,
+   "outcomes": [
+    "raise:NONFINITE"
+   ]
+  },
+  "moderate-wide-exponent": {
+   "cases": 40,
+   "identical": 40,
+   "outcomes": [
+    "ok:eft"
+   ]
+  }
+ },
+ "binding": {
+  "E3-TS|S2|200": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 104,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  },
+  "E3-TS|S2|201": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 104,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  },
+  "E3-TS|S2|202": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 104,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  },
+  "E3-TS|S2|203": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 104,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  },
+  "E3-TS|S2|204": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 104,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  },
+  "D3-TS|S2|200": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 104,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  },
+  "D3-TS|S2|201": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 102,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5,
+   "accepted_correctly": 2,
+   "accepted_cases": [
+    "coeff",
+    "coeff"
+   ]
+  },
+  "D3-TS|S2|202": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 103,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5,
+   "accepted_correctly": 1,
+   "accepted_cases": [
+    "coeff"
+   ]
+  },
+  "D3-TS|S2|203": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 103,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5,
+   "accepted_correctly": 1,
+   "accepted_cases": [
+    "coeff"
+   ]
+  },
+  "D3-TS|S2|204": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 104,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  },
+  "E3-TS|S3|200": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 104,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  },
+  "E3-TS|S3|201": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 104,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  },
+  "E3-TS|S3|202": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 104,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  },
+  "E3-TS|S3|203": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 104,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  },
+  "E3-TS|S3|204": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 104,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  },
+  "D3-TS|S3|200": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 104,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  },
+  "D3-TS|S3|201": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 101,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5,
+   "accepted_correctly": 3,
+   "accepted_cases": [
+    "coeff",
+    "coeff",
+    "coeff"
+   ]
+  },
+  "D3-TS|S3|202": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 102,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5,
+   "accepted_correctly": 2,
+   "accepted_cases": [
+    "coeff",
+    "coeff"
+   ]
+  },
+  "D3-TS|S3|203": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 101,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5,
+   "accepted_correctly": 3,
+   "accepted_cases": [
+    "coeff",
+    "coeff",
+    "coeff"
+   ]
+  },
+  "D3-TS|S3|204": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 104,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  },
+  "E3-TS|S0|0": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 93,
+   "negatives_rejected": 93,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  },
+  "E3-TS|S0|1": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 94,
+   "negatives_rejected": 94,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  },
+  "E3-TS|S0|2": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 95,
+   "negatives_rejected": 95,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  },
+  "D3-TS|S0|0": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 83,
+   "negatives_rejected": 81,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5,
+   "accepted_correctly": 2,
+   "accepted_cases": [
+    "coeff",
+    "coeff"
+   ]
+  },
+  "D3-TS|S0|1": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 83,
+   "negatives_rejected": 77,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5,
+   "accepted_correctly": 6,
+   "accepted_cases": [
+    "coeff",
+    "coeff",
+    "coeff",
+    "coeff",
+    "coeff",
+    "coeff"
+   ]
+  },
+  "D3-TS|S0|2": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 83,
+   "negatives_rejected": 76,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5,
+   "accepted_correctly": 7,
+   "accepted_cases": [
+    "coeff",
+    "coeff",
+    "coeff",
+    "coeff",
+    "coeff",
+    "coeff",
+    "coeff"
+   ]
+  },
+  "E3-TS|S1|0": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 104,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  },
+  "E3-TS|S1|1": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 104,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  },
+  "E3-TS|S1|2": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 104,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  },
+  "D3-TS|S1|0": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 101,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5,
+   "accepted_correctly": 3,
+   "accepted_cases": [
+    "coeff",
+    "coeff",
+    "coeff"
+   ]
+  },
+  "D3-TS|S1|1": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 98,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5,
+   "accepted_correctly": 6,
+   "accepted_cases": [
+    "coeff",
+    "coeff",
+    "coeff",
+    "coeff",
+    "coeff",
+    "coeff"
+   ]
+  },
+  "D3-TS|S1|2": {
+   "steps": 21,
+   "data_identical": 21,
+   "true_accepted": 21,
+   "negatives": 104,
+   "negatives_rejected": 104,
+   "zero_coeff": 5,
+   "zero_coeff_ok": 5
+  }
+ },
+ "failures": [],
+ "seconds": 258.6956970691681,
+ "ALL_IDENTICAL": true,
+ "environment": {
+  "python": "3.10.0",
+  "numpy": "2.2.6",
+  "numba": "0.61.2"
+ }
+}

@@ -1,0 +1,36 @@
+E3-TS 84.9 us/iteration
+D3-TS 66.9 us/iteration
+{
+ "E3-TS": {
+  "per_system_arm": "B9f",
+  "reuse_arm": "Df",
+  "iters_per_sequence": [
+   227.4,
+   374.0
+  ],
+  "overhead_s": [
+   0.019298679878314337,
+   0.03174013313319948
+  ],
+  "cost_s": [
+   4.214729819976492,
+   3.9470009999873583
+  ]
+ },
+ "D3-TS": {
+  "per_system_arm": "Bf",
+  "reuse_arm": "D2f",
+  "iters_per_sequence": [
+   210.8,
+   328.8
+  ],
+  "overhead_s": [
+   0.01409935799543746,
+   0.021991787992883476
+  ],
+  "cost_s": [
+   1.2935870200104547,
+   1.2595607600116636
+  ]
+ }
+}

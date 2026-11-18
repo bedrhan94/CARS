@@ -1,0 +1,34 @@
+{
+ "frozen_at": "2026-11-15 11:37:20",
+ "phase10a_files": {
+  "PHASE10A_DEV/analysis/analyze10a.py": "db467a1582c1a49a9c68235af941c2e5fbe89606ca35761c86fc425da0921a57",
+  "PHASE10A_DEV/eft/eft_exact_tests.py": "3fd4d24da127f7fa4200510d99f19ca9e3276a8da076d7ba7e58ac5beb3739f6",
+  "PHASE10A_DEV/eft/eft_residual.py": "cd73f86b89942235dd771fd406cc5b87076f52d9a2ed1ed9edff895e21e8f708",
+  "PHASE10A_DEV/eft/eft_residual_v1_validated.py": "7fd16173768fdb68cdc3f7991b62e6320b39d661f9bf734aa318fcae742e1ae4",
+  "PHASE10A_DEV/freeze_code10a.py": "3922d03d9d646c2422c14eab3806eadcf64982626cc525742f6a904dc01bb73b",
+  "PHASE10A_DEV/freeze_inputs10a.py": "8cfd71f3c56b518594b323b306afb88b2d1dc54a527f8bdf4859a06139bc5efb",
+  "PHASE10A_DEV/methods/independent10a.py": "e71d94acb1ab3a693c94b7dff925c8136043225f6f6d2264f1348fd382bf6ec4",
+  "PHASE10A_DEV/methods/negctrl10a.py": "5ae9adc56bf001a245cc5349b7e6d4e82a669ec7032c8fc85360744ad9decb6b",
+  "PHASE10A_DEV/methods/replay10a.py": "ea397e2507645274b1546599a01d4a344462f1b67f8460d39e6f2f4bd43f227f",
+  "PHASE10A_DEV/methods/run_cell10a.py": "974fefc5ca268e919428a64bbc478d6f789beafd1869817c182c62e06a295303",
+  "PHASE10A_DEV/methods/runner10a.py": "8713c76037f7d9eb857c651f3834d477bd013972bef90c018d619c2d2d19a213",
+  "PHASE10A_DEV/methods/tamper10a.py": "8888bb3268afcf92c18d4fba59aa3bfd71687b82ddb68225b8d0b8205419668a",
+  "PHASE10A_DEV/methods/verify10a.py": "054d997d4c77967998caae6dccea578055f3b5c5eb68c760c24f23662c122e0b",
+  "PHASE10A_DEV/run_plan10a.py": "174207ef446f12025bd2a461f7f34dbf7fe1079429c2212661d2268fe11b45a6"
+ },
+ "frozen_dependencies": {
+  "PHASE6_DEV/lean6/runner6.py": "c2cdac478154e18256e1eb375cafb82407839e7a5177976795d117912fe64ed6",
+  "PHASE6_DEV/lean6/replay6.py": "8e1b768c4caef344e15037c5f9a808be0aba9b5837eb5f8f7cedcb8e1a3020d2",
+  "PHASE5_DEV/lean/fastbind.py": "0e6e9aaa944835a89b65d8db570c1ae35c598dd5f9a91718fb25ff8aea4bc351",
+  "PHASE5_DEV/lean/verify5.py": "e1efa2d9b357d340d14d472eec24fd0b364c6303bc44ca384c06c78a2c2e4290",
+  "PHASE5_DEV/lean/runner5.py": "cf2c6e9047e154046b39197d8b4b51682e80f4bc19eabc1f5208e151f018eb0e",
+  "PHASE5_DEV/arith/independent5.py": "e1ff42042bc18d6cb45cda093d3250ee62238dfc4b936757cf314677b4048aca",
+  "PHASE3B_DEV/work/CARS_M0_M1/cars/_reference_m0.py": "62ca5246f8dc55e064f7d2d6cfce8a30e9df6ec6fc1448108cb29b5716aa812c",
+  "PHASE3B_DEV/work/CARS_M0_M1/cars_m2/families.py": "95de87c5d5a012f1c56d912162a8339dbba6c054d6e2ff82ad53d6892a122c28",
+  "PHASE3B_DEV/work/CARS_M0_M1/cars_m2/runner3b.py": "a359610c2cd9c8774b87464c33172f106b6cc6eef62d2618ae319de4346612d2",
+  "reference_impl/fem3d_ref.py": "ea34deb14c1bf6734ed3f5641054881f69fbe91909570500c5097d849b8f508b",
+  "reference_impl/m2_ref.py": "8d5d1ec2d1f3243ab57a75f3d43380b6662a30eb91052dcb312270adc70f33d1"
+ },
+ "aggregate_sha256": "8516e85196b508851174f8f4ca688d232286bae6f28884949de062b8dbf654de",
+ "missing_deps": []
+}

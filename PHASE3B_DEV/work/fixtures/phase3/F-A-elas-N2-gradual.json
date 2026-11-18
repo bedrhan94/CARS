@@ -1,0 +1,37 @@
+{
+ "id": "F-A-elas-N2-gradual",
+ "N": 2,
+ "family": "elas",
+ "nu": 0.3,
+ "Z_ref": "Z_ref_elas_h1.json",
+ "coeff_rule": "c_e = fl(h * E_e), h = 1/N",
+ "E_s": [
+  "0x1.5e472ed42c51ep-1",
+  "0x1.40ea264623296p+0",
+  "0x1.b54bf079817afp+0",
+  "0x1.ed1bd04c288a3p+0",
+  "0x1.6e0ee872390d6p+0",
+  "0x1.3d18ed6d1fcdap+0",
+  "0x1.254c211e29e93p+0",
+  "0x1.eba0a4cd0416dp-1"
+ ],
+ "E_t": [
+  "0x1.2ebb499bd80e8p-1",
+  "0x1.188681dd19815p+0",
+  "0x1.6ae8c96b2cb7cp+0",
+  "0x1.b2ec5d9876d6bp+0",
+  "0x1.315d7395603bfp+0",
+  "0x1.104a53df171a6p+0",
+  "0x1.e9d334c60fcfep-1",
+  "0x1.bd058aece5d77p-1"
+ ],
+ "reference_zeta_s": "0x1.ccf6d19b701b8p-46",
+ "reference_zeta_t": "0x1.9051a7e96d0dep-46",
+ "reference_lambda_s_lo": "0x1.c98142ea3cf61p-7",
+ "reference_lambda_plain": "0x1.7bae16e323431p-7",
+ "reference_lambda_split": "0x1.7bae16e3233a2p-7",
+ "theta0": "0x1.a8e7b4e8d4c37p-1",
+ "theta_lo_expected_bitwise": "0x1.a8e7b4e8d4c36p-1",
+ "float_lambda1_At": "0x1.b0f860f42f9b8p-7",
+ "requirement": "theta_lo bitwise; every returned lambda_lo exact-valid (exact inertia of Ahat_t - lambda_lo I: 0 negative); zeta >= ||Ahat - A_exact||_2 exactly"
+}

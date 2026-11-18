@@ -1,0 +1,53 @@
+{
+ "arms": {
+  "B9f": {
+   "VERIFIED": 21,
+   "certified": 21,
+   "target_met": 21
+  },
+  "B9fc": {
+   "VERIFIED": 21,
+   "certified": 21,
+   "target_met": 21
+  },
+  "Bf": {
+   "VERIFIED": 21,
+   "certified": 21,
+   "target_met": 21
+  },
+  "Bfc": {
+   "VERIFIED": 21,
+   "certified": 21,
+   "target_met": 21
+  },
+  "D": {
+   "VERIFIED": 21,
+   "certified": 21,
+   "target_met": 21
+  },
+  "D2": {
+   "VERIFIED": 21,
+   "certified": 21,
+   "target_met": 21
+  },
+  "D2c": {
+   "VERIFIED": 21,
+   "certified": 21,
+   "target_met": 21
+  },
+  "Dc": {
+   "VERIFIED": 21,
+   "certified": 21,
+   "target_met": 21
+  }
+ },
+ "errors": [],
+ "totals": {
+  "VERIFIED": 168
+ },
+ "rump_reproofs": {
+  "rump_reproofs": 76,
+  "rump_cache_hits": 92
+ },
+ "seconds": 72.62455987930298
+}

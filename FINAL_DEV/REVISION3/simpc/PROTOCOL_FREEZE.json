@@ -1,0 +1,10 @@
+{
+ "frozen_at": "2026-11-16 19:57:30 +0300",
+ "note": "Frozen before any timed SIMP3D cell of this experiment; smoke test on the development pilot only (instance 900, S2, early, target 1e-6).",
+ "files": {
+  "SIMPC_PROTOCOL.md": "9a0b260fa74cc1df6a3a3c7f1ac830c6dbd8796a1a0c29c51cbb9b7f05ffb758",
+  "run_cell_simpc.py": "20240aafd30105239f4fa5cf55411cc31b5846351c43bad80146552b2d8f5549",
+  "run_plan_simpc.py": "fb9bf7c4388d6d5e1aba4d41f68d568f9f2c805e27c00288c3607cba31c67de1",
+  "analyze_simpc.py": "c00c4410a37037922ffb1f0ece305e131767696c31bce11b1fdae9ea5fd80f10"
+ }
+}

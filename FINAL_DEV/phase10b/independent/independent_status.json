@@ -1,0 +1,37 @@
+{
+ "E": {
+  "status": "OK",
+  "seconds": 1809.5,
+  "optional": false
+ },
+ "L E3-TS S2 201 0": {
+  "status": "OK",
+  "seconds": 1809.5,
+  "optional": false
+ },
+ "L D3-TS S2 201 0": {
+  "status": "FAILED exit 3221226505",
+  "seconds": 1809.5,
+  "optional": false
+ },
+ "L E3-TS S2 203 20": {
+  "status": "FAILED exit 3221226505",
+  "seconds": 1809.5,
+  "optional": false
+ },
+ "L D3-TS S2 203 20": {
+  "status": "FAILED exit 3221226505",
+  "seconds": 1809.5,
+  "optional": false
+ },
+ "L E3-TS S3 202 10": {
+  "status": "UNAVAILABLE (30-min cap)",
+  "seconds": 1809.5,
+  "optional": true
+ },
+ "L D3-TS S3 202 10": {
+  "status": "UNAVAILABLE (30-min cap)",
+  "seconds": 1809.5,
+  "optional": true
+ }
+}

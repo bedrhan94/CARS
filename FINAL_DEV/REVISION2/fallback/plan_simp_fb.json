@@ -1,0 +1,128 @@
+{
+ "cells": [
+  "301_early_r0",
+  "301_late_r0",
+  "302_early_r0",
+  "302_late_r0",
+  "303_early_r0",
+  "303_late_r0",
+  "304_early_r0",
+  "304_late_r0",
+  "305_early_r0",
+  "305_late_r0",
+  "301_early_r1",
+  "301_late_r1",
+  "302_early_r1",
+  "302_late_r1",
+  "303_early_r1",
+  "303_late_r1",
+  "304_early_r1",
+  "304_late_r1",
+  "305_early_r1",
+  "305_late_r1",
+  "301_early_r2",
+  "301_late_r2",
+  "302_early_r2",
+  "302_late_r2",
+  "303_early_r2",
+  "303_late_r2",
+  "304_early_r2",
+  "304_late_r2",
+  "305_early_r2",
+  "305_late_r2"
+ ],
+ "stop": null,
+ "replay": {
+  "301_early_r0": {
+   "VERIFIED": 147
+  },
+  "301_late_r0": {
+   "VERIFIED": 147
+  },
+  "302_early_r0": {
+   "VERIFIED": 147
+  },
+  "302_late_r0": {
+   "VERIFIED": 147
+  },
+  "303_early_r0": {
+   "VERIFIED": 147
+  },
+  "303_late_r0": {
+   "VERIFIED": 147
+  },
+  "304_early_r0": {
+   "VERIFIED": 147
+  },
+  "304_late_r0": {
+   "VERIFIED": 147
+  },
+  "305_early_r0": {
+   "VERIFIED": 147
+  },
+  "305_late_r0": {
+   "VERIFIED": 147
+  },
+  "301_early_r1": {
+   "VERIFIED": 147
+  },
+  "301_late_r1": {
+   "VERIFIED": 147
+  },
+  "302_early_r1": {
+   "VERIFIED": 147
+  },
+  "302_late_r1": {
+   "VERIFIED": 147
+  },
+  "303_early_r1": {
+   "VERIFIED": 147
+  },
+  "303_late_r1": {
+   "VERIFIED": 147
+  },
+  "304_early_r1": {
+   "VERIFIED": 147
+  },
+  "304_late_r1": {
+   "VERIFIED": 147
+  },
+  "305_early_r1": {
+   "VERIFIED": 147
+  },
+  "305_late_r1": {
+   "VERIFIED": 147
+  },
+  "301_early_r2": {
+   "VERIFIED": 147
+  },
+  "301_late_r2": {
+   "VERIFIED": 147
+  },
+  "302_early_r2": {
+   "VERIFIED": 147
+  },
+  "302_late_r2": {
+   "VERIFIED": 147
+  },
+  "303_early_r2": {
+   "VERIFIED": 147
+  },
+  "303_late_r2": {
+   "VERIFIED": 147
+  },
+  "304_early_r2": {
+   "VERIFIED": 147
+  },
+  "304_late_r2": {
+   "VERIFIED": 147
+  },
+  "305_early_r2": {
+   "VERIFIED": 147
+  },
+  "305_late_r2": {
+   "VERIFIED": 147
+  }
+ },
+ "budget_s": 2714.603786468506
+}

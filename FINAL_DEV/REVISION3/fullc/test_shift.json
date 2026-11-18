@@ -1,0 +1,15 @@
+{
+ "matrices": 672,
+ "cases": 3986,
+ "identical": 3986,
+ "failures": [],
+ "timing_ms": {
+  "frozen": 16728.43329992611,
+  "compiled": 3861.4279995381366
+ },
+ "shift_cases": 672,
+ "shift_identical": 672,
+ "anchor_cases": 12,
+ "anchor_identical": 12,
+ "ALL_IDENTICAL": true
+}

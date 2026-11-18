@@ -1,0 +1,227 @@
+{
+ "counts": {
+  "E3-TS|S2|200": {
+   "per_system_analyses": 21,
+   "reuse_anchor_steps": 5,
+   "reuse_analyses": 5,
+   "distinct_patterns": 21,
+   "nnz_range": [
+    418628,
+    418650
+   ]
+  },
+  "E3-TS|S2|201": {
+   "per_system_analyses": 21,
+   "reuse_anchor_steps": 5,
+   "reuse_analyses": 5,
+   "distinct_patterns": 21,
+   "nnz_range": [
+    418630,
+    418652
+   ]
+  },
+  "E3-TS|S2|202": {
+   "per_system_analyses": 21,
+   "reuse_anchor_steps": 5,
+   "reuse_analyses": 5,
+   "distinct_patterns": 21,
+   "nnz_range": [
+    418638,
+    418664
+   ]
+  },
+  "E3-TS|S2|203": {
+   "per_system_analyses": 21,
+   "reuse_anchor_steps": 4,
+   "reuse_analyses": 4,
+   "distinct_patterns": 21,
+   "nnz_range": [
+    418632,
+    418666
+   ]
+  },
+  "E3-TS|S2|204": {
+   "per_system_analyses": 20,
+   "reuse_anchor_steps": 4,
+   "reuse_analyses": 4,
+   "distinct_patterns": 21,
+   "nnz_range": [
+    418632,
+    418652
+   ]
+  },
+  "E3-TS|S3|200": {
+   "per_system_analyses": 2,
+   "reuse_anchor_steps": 5,
+   "reuse_analyses": 3,
+   "distinct_patterns": 21,
+   "nnz_range": [
+    993514,
+    993530
+   ]
+  },
+  "E3-TS|S3|201": {
+   "per_system_analyses": 2,
+   "reuse_anchor_steps": 5,
+   "reuse_analyses": 2,
+   "distinct_patterns": 21,
+   "nnz_range": [
+    993522,
+    993532
+   ]
+  },
+  "E3-TS|S3|202": {
+   "per_system_analyses": 3,
+   "reuse_anchor_steps": 5,
+   "reuse_analyses": 2,
+   "distinct_patterns": 21,
+   "nnz_range": [
+    993508,
+    993522
+   ]
+  },
+  "E3-TS|S3|203": {
+   "per_system_analyses": 2,
+   "reuse_anchor_steps": 4,
+   "reuse_analyses": 3,
+   "distinct_patterns": 21,
+   "nnz_range": [
+    993510,
+    993526
+   ]
+  },
+  "E3-TS|S3|204": {
+   "per_system_analyses": 1,
+   "reuse_anchor_steps": 4,
+   "reuse_analyses": 1,
+   "distinct_patterns": 15,
+   "nnz_range": [
+    993504,
+    993532
+   ]
+  },
+  "D3-TS|S2|200": {
+   "per_system_analyses": 1,
+   "reuse_anchor_steps": 4,
+   "reuse_analyses": 1,
+   "distinct_patterns": 1,
+   "nnz_range": [
+    157339,
+    157339
+   ]
+  },
+  "D3-TS|S2|201": {
+   "per_system_analyses": 1,
+   "reuse_anchor_steps": 4,
+   "reuse_analyses": 1,
+   "distinct_patterns": 1,
+   "nnz_range": [
+    157339,
+    157339
+   ]
+  },
+  "D3-TS|S2|202": {
+   "per_system_analyses": 1,
+   "reuse_anchor_steps": 4,
+   "reuse_analyses": 1,
+   "distinct_patterns": 1,
+   "nnz_range": [
+    157339,
+    157339
+   ]
+  },
+  "D3-TS|S2|203": {
+   "per_system_analyses": 1,
+   "reuse_anchor_steps": 4,
+   "reuse_analyses": 1,
+   "distinct_patterns": 1,
+   "nnz_range": [
+    157339,
+    157339
+   ]
+  },
+  "D3-TS|S2|204": {
+   "per_system_analyses": 1,
+   "reuse_anchor_steps": 4,
+   "reuse_analyses": 1,
+   "distinct_patterns": 1,
+   "nnz_range": [
+    157339,
+    157339
+   ]
+  },
+  "D3-TS|S3|200": {
+   "per_system_analyses": 1,
+   "reuse_anchor_steps": 5,
+   "reuse_analyses": 1,
+   "distinct_patterns": 1,
+   "nnz_range": [
+    330625,
+    330625
+   ]
+  },
+  "D3-TS|S3|201": {
+   "per_system_analyses": 1,
+   "reuse_anchor_steps": 5,
+   "reuse_analyses": 1,
+   "distinct_patterns": 1,
+   "nnz_range": [
+    330625,
+    330625
+   ]
+  },
+  "D3-TS|S3|202": {
+   "per_system_analyses": 1,
+   "reuse_anchor_steps": 5,
+   "reuse_analyses": 1,
+   "distinct_patterns": 1,
+   "nnz_range": [
+    330625,
+    330625
+   ]
+  },
+  "D3-TS|S3|203": {
+   "per_system_analyses": 1,
+   "reuse_anchor_steps": 4,
+   "reuse_analyses": 1,
+   "distinct_patterns": 1,
+   "nnz_range": [
+    330625,
+    330625
+   ]
+  },
+  "D3-TS|S3|204": {
+   "per_system_analyses": 1,
+   "reuse_anchor_steps": 4,
+   "reuse_analyses": 1,
+   "distinct_patterns": 1,
+   "nnz_range": [
+    330625,
+    330625
+   ]
+  }
+ },
+ "timing": {
+  "E3-TS|S2": {
+   "n": 6084,
+   "analysis_s": 0.02677939999557566,
+   "numeric_s": 0.026297099990188144
+  },
+  "E3-TS|S3": {
+   "n": 13872,
+   "analysis_s": 0.07022239999787416,
+   "numeric_s": 0.10659450000093784
+  },
+  "D3-TS|S2": {
+   "n": 6727,
+   "analysis_s": 0.023361100000329316,
+   "numeric_s": 0.008952300006058067
+  },
+  "D3-TS|S3": {
+   "n": 13689,
+   "analysis_s": 0.05135589999554213,
+   "numeric_s": 0.02736920000461396
+  }
+ },
+ "note": "post-hoc exploratory; not part of the registered analysis"
+}

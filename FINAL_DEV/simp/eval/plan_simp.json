@@ -1,0 +1,90 @@
+{
+ "cells": [
+  {
+   "cell": "301_early_r0",
+   "replay": {
+    "VERIFIED": 147
+   },
+   "errors": 0
+  },
+  {
+   "cell": "301_late_r0",
+   "replay": {
+    "VERIFIED": 147
+   },
+   "errors": 0
+  },
+  {
+   "cell": "302_early_r0",
+   "replay": {
+    "VERIFIED": 147
+   },
+   "errors": 0
+  },
+  {
+   "cell": "302_late_r0",
+   "replay": {
+    "VERIFIED": 147
+   },
+   "errors": 0
+  },
+  {
+   "cell": "303_early_r0",
+   "replay": {
+    "VERIFIED": 147
+   },
+   "errors": 0
+  },
+  {
+   "cell": "303_late_r0",
+   "replay": {
+    "VERIFIED": 147
+   },
+   "errors": 0
+  },
+  {
+   "cell": "304_early_r0",
+   "replay": {
+    "VERIFIED": 147
+   },
+   "errors": 0
+  },
+  {
+   "cell": "304_late_r0",
+   "replay": {
+    "VERIFIED": 147
+   },
+   "errors": 0
+  },
+  {
+   "cell": "305_early_r0",
+   "replay": {
+    "VERIFIED": 147
+   },
+   "errors": 0
+  },
+  {
+   "cell": "305_late_r0",
+   "replay": {
+    "VERIFIED": 147
+   },
+   "errors": 0
+  },
+  {
+   "cell": "301_early_r1",
+   "replay": {
+    "VERIFIED": 147
+   },
+   "errors": 0
+  },
+  {
+   "cell": "301_late_r1",
+   "replay": {
+    "VERIFIED": 147
+   },
+   "errors": 0
+  }
+ ],
+ "status": "STOP BUDGET at 302_early_r1",
+ "budget_used_s": 5400.05669593811
+}

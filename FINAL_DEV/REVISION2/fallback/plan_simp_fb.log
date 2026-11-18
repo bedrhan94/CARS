@@ -1,0 +1,62 @@
+17:01:42 START plan; other python processes: 2
+17:02:57 301_early_r0 rc=0 why=None 74.2s
+17:04:19 replay 301_early_r0 rc=0 {'VERIFIED': 147} errors=0 82.3s
+17:07:17 301_late_r0 rc=0 why=None 178.0s
+17:08:35 replay 301_late_r0 rc=0 {'VERIFIED': 147} errors=0 77.7s
+17:09:43 302_early_r0 rc=0 why=None 68.1s
+17:11:49 replay 302_early_r0 rc=0 {'VERIFIED': 147} errors=0 126.4s
+17:13:53 302_late_r0 rc=0 why=None 123.4s
+17:15:53 replay 302_late_r0 rc=0 {'VERIFIED': 147} errors=0 120.4s
+17:16:58 303_early_r0 rc=0 why=None 64.6s
+17:18:16 replay 303_early_r0 rc=0 {'VERIFIED': 147} errors=0 78.6s
+17:20:00 303_late_r0 rc=0 why=None 103.3s
+17:21:16 replay 303_late_r0 rc=0 {'VERIFIED': 147} errors=0 76.7s
+17:22:19 304_early_r0 rc=0 why=None 63.1s
+17:23:38 replay 304_early_r0 rc=0 {'VERIFIED': 147} errors=0 78.7s
+17:25:07 304_late_r0 rc=0 why=None 89.2s
+17:26:49 replay 304_late_r0 rc=0 {'VERIFIED': 147} errors=0 102.3s
+17:27:52 305_early_r0 rc=0 why=None 62.9s
+17:29:44 replay 305_early_r0 rc=0 {'VERIFIED': 147} errors=0 111.4s
+17:31:07 305_late_r0 rc=0 why=None 82.8s
+17:33:17 replay 305_late_r0 rc=0 {'VERIFIED': 147} errors=0 130.4s
+17:34:29 301_early_r1 rc=0 why=None 71.6s
+17:36:34 replay 301_early_r1 rc=0 {'VERIFIED': 147} errors=0 125.5s
+17:39:30 301_late_r1 rc=0 why=None 176.1s
+17:41:25 replay 301_late_r1 rc=0 {'VERIFIED': 147} errors=0 114.3s
+17:42:32 302_early_r1 rc=0 why=None 67.2s
+17:43:51 replay 302_early_r1 rc=0 {'VERIFIED': 147} errors=0 79.2s
+17:45:56 302_late_r1 rc=0 why=None 124.6s
+17:47:13 replay 302_late_r1 rc=0 {'VERIFIED': 147} errors=0 77.4s
+17:48:19 303_early_r1 rc=0 why=None 65.6s
+17:49:38 replay 303_early_r1 rc=0 {'VERIFIED': 147} errors=0 79.2s
+17:51:20 303_late_r1 rc=0 why=None 102.5s
+17:52:39 replay 303_late_r1 rc=0 {'VERIFIED': 147} errors=0 78.4s
+17:53:44 304_early_r1 rc=0 why=None 65.3s
+17:55:14 replay 304_early_r1 rc=0 {'VERIFIED': 147} errors=0 89.8s
+17:56:44 304_late_r1 rc=0 why=None 89.8s
+17:58:03 replay 304_late_r1 rc=0 {'VERIFIED': 147} errors=0 79.4s
+17:59:08 305_early_r1 rc=0 why=None 65.2s
+18:00:27 replay 305_early_r1 rc=0 {'VERIFIED': 147} errors=0 79.2s
+18:01:49 305_late_r1 rc=0 why=None 81.8s
+18:03:06 replay 305_late_r1 rc=0 {'VERIFIED': 147} errors=0 76.6s
+18:04:17 301_early_r2 rc=0 why=None 71.1s
+18:05:35 replay 301_early_r2 rc=0 {'VERIFIED': 147} errors=0 77.8s
+18:08:28 301_late_r2 rc=0 why=None 173.5s
+18:09:42 replay 301_late_r2 rc=0 {'VERIFIED': 147} errors=0 74.1s
+18:10:49 302_early_r2 rc=0 why=None 66.6s
+18:12:05 replay 302_early_r2 rc=0 {'VERIFIED': 147} errors=0 76.2s
+18:14:07 302_late_r2 rc=0 why=None 121.5s
+18:15:21 replay 302_late_r2 rc=0 {'VERIFIED': 147} errors=0 74.1s
+18:16:27 303_early_r2 rc=0 why=None 66.6s
+18:17:49 replay 303_early_r2 rc=0 {'VERIFIED': 147} errors=0 81.1s
+18:19:31 303_late_r2 rc=0 why=None 102.7s
+18:20:47 replay 303_late_r2 rc=0 {'VERIFIED': 147} errors=0 76.1s
+18:21:50 304_early_r2 rc=0 why=None 62.5s
+18:23:05 replay 304_early_r2 rc=0 {'VERIFIED': 147} errors=0 75.2s
+18:24:33 304_late_r2 rc=0 why=None 88.3s
+18:25:47 replay 304_late_r2 rc=0 {'VERIFIED': 147} errors=0 73.6s
+18:26:50 305_early_r2 rc=0 why=None 62.6s
+18:28:05 replay 305_early_r2 rc=0 {'VERIFIED': 147} errors=0 75.6s
+18:29:25 305_late_r2 rc=0 why=None 80.1s
+18:30:40 replay 305_late_r2 rc=0 {'VERIFIED': 147} errors=0 74.5s
+18:30:40 PLAN DONE cells=30 stop=None

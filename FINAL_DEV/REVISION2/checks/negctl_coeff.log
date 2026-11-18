@@ -1,0 +1,15 @@
+NC-E3 A certified 8 transfers [] unverified {'ANCHOR_FACTORIZATION_FAILED': 1, 'RuntimeError': 12} max lam/true 0.9931930096473405 {'VERIFIED': 21}
+NC-E3 B1 certified 8 transfers [] unverified {'ANCHOR_FACTORIZATION_FAILED': 13} max lam/true 0.9931930096473405 {'VERIFIED': 21}
+NC-E3 B certified 8 transfers [] unverified {'ANCHOR_FACTORIZATION_FAILED': 13} max lam/true 0.8256156302717775 {'VERIFIED': 21}
+NC-E3 B9 certified 8 transfers [] unverified {'ANCHOR_FACTORIZATION_FAILED': 13} max lam/true 0.9653464144453536 {'VERIFIED': 21}
+NC-E3 C certified 8 transfers [1, 2, 3, 5] unverified {'ANCHOR_FACTORIZATION_FAILED': 1, 'RuntimeError': 12} max lam/true 0.9931933674223312 {'VERIFIED': 21}
+NC-E3 D certified 8 transfers [1, 2, 3, 5] unverified {'ANCHOR_FACTORIZATION_FAILED': 13} max lam/true 0.9931933674223312 {'VERIFIED': 21}
+NC-E3 D2 certified 8 transfers [1, 2, 3, 5] unverified {'ANCHOR_FACTORIZATION_FAILED': 13} max lam/true 0.5526360443214735 {'VERIFIED': 21}
+NC-D3 A certified 8 transfers [] unverified {'ANCHOR_FACTORIZATION_FAILED': 13} max lam/true 0.9064283610248015 {'VERIFIED': 21}
+NC-D3 B1 certified 8 transfers [] unverified {'ANCHOR_FACTORIZATION_FAILED': 13} max lam/true 0.9064283610248015 {'VERIFIED': 21}
+NC-D3 B certified 8 transfers [] unverified {'ANCHOR_FACTORIZATION_FAILED': 13} max lam/true 0.5091820925500875 {'VERIFIED': 21}
+NC-D3 B9 certified 8 transfers [] unverified {'ANCHOR_FACTORIZATION_FAILED': 13} max lam/true 0.9165277665901576 {'VERIFIED': 21}
+NC-D3 C certified 8 transfers [1, 2, 3, 5] unverified {'ANCHOR_FACTORIZATION_FAILED': 13} max lam/true 0.9079131807233087 {'VERIFIED': 21}
+NC-D3 D certified 8 transfers [1, 2, 3, 5] unverified {'ANCHOR_FACTORIZATION_FAILED': 13} max lam/true 0.9079131807233087 {'VERIFIED': 21}
+NC-D3 D2 certified 8 transfers [1, 2, 3, 5] unverified {'ANCHOR_FACTORIZATION_FAILED': 13} max lam/true 0.504402938457696 {'VERIFIED': 21}
+ALL_OK True []

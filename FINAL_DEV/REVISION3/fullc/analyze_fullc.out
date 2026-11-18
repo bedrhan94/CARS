@@ -1,0 +1,61 @@
+identity {'pairs_checked': 120, 'view_identical': 120, 'R_identical': 120} mismatches 0
+D3-TS|S2 invalid 0 []
+   Bf/D2f 1.06 [1.045, 1.074] reuse faster (directional) margin
+   Bfs/D2fs 1.055 [1.041, 1.07] reuse faster (directional) margin
+   Bc/D2c 1.106 [1.087, 1.125] reuse faster (directional) margin
+   Bfs/D2f 1.082 [1.077, 1.087] reuse faster (directional) margin
+   Bc/Bf 1.051 [1.04, 1.063] reuse faster (directional) margin
+   D2c/D2f 1.01 [0.991, 1.03] no directional difference (interval contains 1) margin
+   Bf/Bfs 0.977 [0.969, 0.984] per-system faster (directional) margin
+   D2f/D2fs 0.972 [0.957, 0.987] per-system faster (directional) margin
+   Bc partial orig 0.459 shift 0.032 binding 0.0 resid 0.078 ana 1.0 valid 15 / 15
+   Bf full orig 0.436 shift 0.011 binding 0.0 resid 0.078 ana 1.0 valid 15 / 15
+   Bfs full struct 0.451 shift 0.011 binding 0.0 resid 0.078 ana 1.0 valid 15 / 15
+   D2c partial orig 0.417 shift 0.006 binding 0.027 resid 0.078 ana 1.0 valid 15 / 15
+   D2f full orig 0.411 shift 0.002 binding 0.027 resid 0.078 ana 1.0 valid 15 / 15
+   D2fs full struct 0.428 shift 0.002 binding 0.027 resid 0.078 ana 1.0 valid 15 / 15
+D3-TS|S3 invalid 0 []
+   Bf/D2f 1.029 [1.005, 1.054] reuse faster (directional) margin
+   Bfs/D2fs 1.032 [1.02, 1.045] reuse faster (directional) margin
+   Bc/D2c 1.063 [1.036, 1.09] reuse faster (directional) margin
+   Bfs/D2f 1.06 [1.034, 1.087] reuse faster (directional) margin
+   Bc/Bf 1.038 [1.023, 1.053] reuse faster (directional) margin
+   D2c/D2f 1.008 [0.988, 1.029] no directional difference (interval contains 1) margin
+   Bf/Bfs 0.975 [0.964, 0.986] per-system faster (directional) margin
+   D2f/D2fs 0.975 [0.953, 0.999] per-system faster (directional) margin
+   Bc partial orig 1.339 shift 0.075 binding 0.0 resid 0.152 ana 1.0 valid 15 / 15
+   Bf full orig 1.294 shift 0.023 binding 0.0 resid 0.152 ana 1.0 valid 15 / 15
+   Bfs full struct 1.321 shift 0.023 binding 0.0 resid 0.153 ana 1.0 valid 15 / 15
+   D2c partial orig 1.269 shift 0.016 binding 0.057 resid 0.154 ana 1.0 valid 15 / 15
+   D2f full orig 1.26 shift 0.005 binding 0.057 resid 0.154 ana 1.0 valid 15 / 15
+   D2fs full struct 1.282 shift 0.005 binding 0.057 resid 0.155 ana 1.0 valid 15 / 15
+E3-TS|S2 invalid 0 []
+   B9f/Df 1.494 [1.453, 1.535] reuse faster, beyond the 1.2 threshold 
+   B9fs/Dfs 1.109 [1.088, 1.129] reuse faster (directional) margin
+   B9c/Dc 1.526 [1.496, 1.556] reuse faster, beyond the 1.2 threshold 
+   B9fs/Df 1.082 [1.05, 1.115] reuse faster (directional) margin
+   B9c/B9f 1.038 [1.019, 1.057] reuse faster (directional) margin
+   Dc/Df 1.012 [0.999, 1.026] no directional difference (interval contains 1) margin
+   B9f/B9fs 1.382 [1.365, 1.398] reuse faster, beyond the 1.2 threshold 
+   Df/Dfs 1.027 [0.992, 1.062] no directional difference (interval contains 1) margin
+   B9c partial orig 1.808 shift 0.081 binding 0.0 resid 0.166 ana 20.8 valid 15 / 15
+   B9f full orig 1.742 shift 0.027 binding 0.0 resid 0.165 ana 20.8 valid 15 / 15
+   B9fs full struct 1.267 shift 0.027 binding 0.0 resid 0.166 ana 1.0 valid 15 / 15
+   Dc partial orig 1.176 shift 0.018 binding 0.069 resid 0.166 ana 4.6 valid 15 / 15
+   Df full orig 1.169 shift 0.006 binding 0.069 resid 0.167 ana 4.6 valid 15 / 15
+   Dfs full struct 1.141 shift 0.006 binding 0.068 resid 0.166 ana 1.0 valid 15 / 15
+E3-TS|S3 invalid 0 []
+   B9f/Df 1.069 [1.017, 1.124] reuse faster (directional) margin
+   B9fs/Dfs 1.082 [1.063, 1.101] reuse faster (directional) margin
+   B9c/Dc 1.085 [1.034, 1.139] reuse faster (directional) margin
+   B9fs/Df 1.071 [1.021, 1.123] reuse faster (directional) margin
+   B9c/B9f 1.032 [1.024, 1.04] reuse faster (directional) margin
+   Dc/Df 1.014 [1.003, 1.026] reuse faster (directional) margin
+   B9f/B9fs 0.997 [0.978, 1.018] no directional difference (interval contains 1) margin
+   Df/Dfs 1.006 [0.972, 1.042] no directional difference (interval contains 1) margin
+   B9c partial orig 4.339 shift 0.196 binding 0.0 resid 0.384 ana 2.0 valid 15 / 15
+   B9f full orig 4.215 shift 0.067 binding 0.0 resid 0.389 ana 2.0 valid 15 / 15
+   B9fs full struct 4.235 shift 0.065 binding 0.0 resid 0.385 ana 1.0 valid 15 / 15
+   Dc partial orig 4.008 shift 0.043 binding 0.16 resid 0.59 ana 2.2 valid 15 / 15
+   Df full orig 3.947 shift 0.013 binding 0.16 resid 0.59 ana 2.2 valid 15 / 15
+   Dfs full struct 3.942 shift 0.014 binding 0.161 resid 0.574 ana 1.0 valid 15 / 15

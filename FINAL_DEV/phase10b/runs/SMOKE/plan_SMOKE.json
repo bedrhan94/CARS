@@ -1,0 +1,161 @@
+{
+ "stage": "SMOKE",
+ "started": "2026-11-15 15:01:59",
+ "cells": [
+  {
+   "cell": "E3-TS_S0_s0_r0_ST",
+   "attempt0": {
+    "exit": 0,
+    "seconds": 2.5,
+    "peak_GiB": 0.004,
+    "stop": null
+   },
+   "replay": {
+    "exit": 0,
+    "seconds": 1.0,
+    "stop": null,
+    "totals": {
+     "VERIFIED": 147
+    },
+    "errors": 0,
+    "manifest_mismatches": 0
+   }
+  },
+  {
+   "cell": "D3-TS_S0_s0_r0_ST",
+   "attempt0": {
+    "exit": 0,
+    "seconds": 2.5,
+    "peak_GiB": 0.004,
+    "stop": null
+   },
+   "replay": {
+    "exit": 0,
+    "seconds": 1.0,
+    "stop": null,
+    "totals": {
+     "VERIFIED": 147
+    },
+    "errors": 0,
+    "manifest_mismatches": 0
+   }
+  },
+  {
+   "cell": "E3-TS_S1_s0_r0_ST",
+   "attempt0": {
+    "exit": 0,
+    "seconds": 7.1,
+    "peak_GiB": 0.004,
+    "stop": null
+   },
+   "replay": {
+    "exit": 0,
+    "seconds": 4.1,
+    "stop": null,
+    "totals": {
+     "VERIFIED": 147
+    },
+    "errors": 0,
+    "manifest_mismatches": 0
+   }
+  },
+  {
+   "cell": "D3-TS_S1_s0_r0_ST",
+   "attempt0": {
+    "exit": 0,
+    "seconds": 4.0,
+    "peak_GiB": 0.004,
+    "stop": null
+   },
+   "replay": {
+    "exit": 0,
+    "seconds": 2.0,
+    "stop": null,
+    "totals": {
+     "VERIFIED": 147
+    },
+    "errors": 0,
+    "manifest_mismatches": 0
+   }
+  },
+  {
+   "cell": "E3-TS_S0_s0_r0_MT",
+   "attempt0": {
+    "exit": 0,
+    "seconds": 2.5,
+    "peak_GiB": 0.004,
+    "stop": null
+   },
+   "replay": {
+    "exit": 0,
+    "seconds": 1.0,
+    "stop": null,
+    "totals": {
+     "VERIFIED": 147
+    },
+    "errors": 0,
+    "manifest_mismatches": 0
+   }
+  },
+  {
+   "cell": "D3-TS_S0_s0_r0_MT",
+   "attempt0": {
+    "exit": 0,
+    "seconds": 2.5,
+    "peak_GiB": 0.004,
+    "stop": null
+   },
+   "replay": {
+    "exit": 0,
+    "seconds": 1.0,
+    "stop": null,
+    "totals": {
+     "VERIFIED": 147
+    },
+    "errors": 0,
+    "manifest_mismatches": 0
+   }
+  },
+  {
+   "cell": "E3-TS_S1_s0_r0_MT",
+   "attempt0": {
+    "exit": 0,
+    "seconds": 7.1,
+    "peak_GiB": 0.004,
+    "stop": null
+   },
+   "replay": {
+    "exit": 0,
+    "seconds": 4.0,
+    "stop": null,
+    "totals": {
+     "VERIFIED": 147
+    },
+    "errors": 0,
+    "manifest_mismatches": 0
+   }
+  },
+  {
+   "cell": "D3-TS_S1_s0_r0_MT",
+   "attempt0": {
+    "exit": 0,
+    "seconds": 4.0,
+    "peak_GiB": 0.004,
+    "stop": null
+   },
+   "replay": {
+    "exit": 0,
+    "seconds": 2.0,
+    "stop": null,
+    "totals": {
+     "VERIFIED": 147
+    },
+    "errors": 0,
+    "manifest_mismatches": 0
+   }
+  }
+ ],
+ "status": "COMPLETE",
+ "finished": "2026-11-15 15:02:48",
+ "budget_used_s": 48.6
+}

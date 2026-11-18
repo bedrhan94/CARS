@@ -1,0 +1,2 @@
+# Store and check out every file byte for byte: the frozen code, inputs and records are verified by SHA-256.
+* -text

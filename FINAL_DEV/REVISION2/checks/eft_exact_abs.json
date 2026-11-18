@@ -1,0 +1,78 @@
+{
+ "per_kind": {
+  "G1": {
+   "cases": 400,
+   "eft": 400,
+   "violations": 0,
+   "ratio_median": 1.0000000000001086,
+   "ratio_max": 1.000000000000493,
+   "rel_scale_median": 4.5545998299059165e-17,
+   "rel_scale_max": 1.0251065732047499e-16,
+   "R_median": 7.27291049778816e-15,
+   "exact_median": 7.272910497785814e-15,
+   "exact_min": 4.8698463129123725e-20
+  },
+  "G2": {
+   "cases": 400,
+   "eft": 400,
+   "violations": 0,
+   "ratio_median": 1.0000000000000995,
+   "ratio_max": 1.0000000000005045,
+   "rel_scale_median": 4.650476614576604e-17,
+   "rel_scale_max": 1.139424666082327e-16,
+   "R_median": 2.2956955208163234e-15,
+   "exact_median": 2.295695520816045e-15,
+   "exact_min": 1.6639751215525527e-17
+  },
+  "G3": {
+   "cases": 400,
+   "eft": 400,
+   "violations": 0,
+   "ratio_median": 2.3923482177969136e+36,
+   "ratio_max": 4.203987712120245e+39,
+   "rel_scale_median": 1.5110760399347389e-30,
+   "rel_scale_max": 2.5478828852304477e-30,
+   "R_median": 211402729.19948292,
+   "exact_median": 5.882390675232061e-29,
+   "exact_min": 8.900733347613145e-41
+  },
+  "G4": {
+   "cases": 100,
+   "eft": 0,
+   "violations": 0,
+   "ratio_median": null,
+   "ratio_max": null,
+   "rel_scale_median": null,
+   "rel_scale_max": null,
+   "R_median": null,
+   "exact_median": null,
+   "exact_min": null
+  },
+  "G5": {
+   "cases": 300,
+   "eft": 300,
+   "violations": 0,
+   "ratio_median": 1.000000000000163,
+   "ratio_max": 1.000000000011409,
+   "rel_scale_median": 2.9477141710428834e-17,
+   "rel_scale_max": 1.376789271601156e-16,
+   "R_median": 3.558070797215258e+93,
+   "exact_median": 3.5580707972146326e+93,
+   "exact_min": 1.9057393074946435e-56
+  },
+  "G6": {
+   "cases": 400,
+   "eft": 400,
+   "violations": 0,
+   "ratio_median": 5.395268882617396e+47,
+   "ratio_max": 1.8227526943206477e+76,
+   "rel_scale_median": 4.437342591868215e-31,
+   "rel_scale_max": 4.437342591868216e-31,
+   "R_median": 4.352132950612687e+25,
+   "exact_median": 2.3613852325479702e-23,
+   "exact_min": 1.910136449853284e-50
+  }
+ },
+ "reproduces_frozen_suite": true,
+ "seconds": 2.181913137435913
+}

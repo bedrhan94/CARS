@@ -1,0 +1,22 @@
+{
+ "id": "F-B-CE-A1a",
+ "n": 2,
+ "As": [
+  "0x1.0000000000000p+0",
+  "0x0.0p+0",
+  "0x0.0p+0",
+  "0x1.4000000000000p+3"
+ ],
+ "At": [
+  "0x1.0000000000000p+0",
+  "0x0.0p+0",
+  "0x0.0p+0",
+  "0x1.0000000000000p+1"
+ ],
+ "sigma_hi": "0x1.ccccccccccccdp-1",
+ "sigma_lo": "0x1.999999999999ap-1",
+ "expected_status": "CERTIFIED",
+ "exact_lambda1_At": "1",
+ "reference_lambda_lo": "0x1.a0250ac635f3ep-1",
+ "window": "0.80 <= lambda_lo <= 1 (exact lambda_1(A_t) = 1); reference ~0.8128 = 0.8 + f*ell, f ~ 0.128, ell ~ 0.1"
+}

@@ -1,0 +1,18 @@
+E3-TS_S0_s0_r0_ST attempt 0 exit 0 2.5 s 
+E3-TS_S0_s0_r0_ST replay {'exit': 0, 'seconds': 1.0, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+D3-TS_S0_s0_r0_ST attempt 0 exit 0 2.5 s 
+D3-TS_S0_s0_r0_ST replay {'exit': 0, 'seconds': 1.0, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+E3-TS_S1_s0_r0_ST attempt 0 exit 0 7.1 s 
+E3-TS_S1_s0_r0_ST replay {'exit': 0, 'seconds': 4.1, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+D3-TS_S1_s0_r0_ST attempt 0 exit 0 4.0 s 
+D3-TS_S1_s0_r0_ST replay {'exit': 0, 'seconds': 2.0, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+E3-TS_S0_s0_r0_MT attempt 0 exit 0 2.5 s 
+E3-TS_S0_s0_r0_MT replay {'exit': 0, 'seconds': 1.0, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+D3-TS_S0_s0_r0_MT attempt 0 exit 0 2.5 s 
+D3-TS_S0_s0_r0_MT replay {'exit': 0, 'seconds': 1.0, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+E3-TS_S1_s0_r0_MT attempt 0 exit 0 7.1 s 
+E3-TS_S1_s0_r0_MT replay {'exit': 0, 'seconds': 4.0, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+D3-TS_S1_s0_r0_MT attempt 0 exit 0 4.0 s 
+D3-TS_S1_s0_r0_MT replay {'exit': 0, 'seconds': 2.0, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+STAGE SMOKE COMPLETE budget_used_h 0.013
+EXIT 0

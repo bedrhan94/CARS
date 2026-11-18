@@ -1,0 +1,146 @@
+{
+ "schema": "cars-pilot-config/0.1",
+ "frozen": "2026-11-12",
+ "common": {
+  "T": 20,
+  "target": "0x1.0c6f7a0b5ed8dp-27",
+  "theta_min": 0.5,
+  "it_max_factor": 2.0,
+  "sigma_anchor": 0.9,
+  "sigma_lo_sri": 0.5,
+  "k_max_sri": 400,
+  "kernel_main": "K2",
+  "kernel_ablation": "K1",
+  "repeats_timing": 3
+ },
+ "families": {
+  "E3-TS": {
+   "kind": "elas",
+   "label": "P",
+   "change": "gradual",
+   "a": 0.7,
+   "w": 0.15,
+   "Z": "Z_ref_elas_h1",
+   "nu": 0.3
+  },
+  "E3-DM": {
+   "kind": "elas",
+   "label": "P",
+   "change": "local",
+   "damage": 0.99,
+   "per_step": 1,
+   "Z": "Z_ref_elas_h1",
+   "nu": 0.3
+  },
+  "D3-TS": {
+   "kind": "diff",
+   "label": "P",
+   "change": "gradual",
+   "a": 0.7,
+   "w": 0.15,
+   "Z": "Z_ref_diff_a3",
+   "aspect": 3
+  },
+  "D3-DM": {
+   "kind": "diff",
+   "label": "P",
+   "change": "local",
+   "damage": 0.99,
+   "per_step": 1,
+   "Z": "Z_ref_diff_a3",
+   "aspect": 3
+  },
+  "C3-FV": {
+   "kind": "lap7",
+   "label": "P",
+   "change": "gradual",
+   "note": "M-matrix control"
+  },
+  "SAFE-S": {
+   "kind": "elas",
+   "label": "S",
+   "change": "pd-loss shift",
+   "Z": "Z_ref_elas_h1",
+   "nu": 0.3
+  },
+  "SAFE-P": {
+   "kind": "elas",
+   "label": "P",
+   "change": "cut plane (c=0)",
+   "Z": "Z_ref_elas_h1",
+   "nu": 0.3
+  }
+ },
+ "sizes": {
+  "elas": {
+   "S0": 2,
+   "S1": 8,
+   "S2": 12,
+   "S3": 16,
+   "S4": 22,
+   "S5": 32
+  },
+  "diff": {
+   "S0": 3,
+   "S1": 6,
+   "S2": 9,
+   "S3": 12,
+   "S4": 16
+  },
+  "lap7": {
+   "S1": 12,
+   "S2": 18,
+   "S3": 24
+  }
+ },
+ "dev_seeds": [
+  0,
+  1,
+  2
+ ],
+ "heldout_seeds": [
+  100,
+  101,
+  102,
+  103,
+  104
+ ],
+ "heldout_variants": {
+  "E3-TS": {
+   "Z": "Z_ref_elas_nu035_h1",
+   "nu": 0.35,
+   "a": 0.6
+  },
+  "E3-DM": {
+   "Z": "Z_ref_elas_nu035_h1",
+   "nu": 0.35,
+   "per_step": 2
+  },
+  "D3-TS": {
+   "Z": "Z_ref_diff_a4",
+   "aspect": 4,
+   "a": 0.6,
+   "sizes": {
+    "S0": 3,
+    "S1": 5,
+    "S2": 8,
+    "S3": 10
+   }
+  },
+  "D3-DM": {
+   "Z": "Z_ref_diff_a4",
+   "aspect": 4,
+   "per_step": 2,
+   "sizes": {
+    "S0": 3,
+    "S1": 5,
+    "S2": 8,
+    "S3": 10
+   }
+  }
+ },
+ "Z_hashes": {
+  "Z_ref_elas_h1": "683fa3afb627cb33696a6b906e9c8952d7c8cd6a5bba717e4a9e76306b52891a"
+ },
+ "rules": "Held-out seeds/variants may be run ONLY after all thresholds and method settings are frozen on the dev split (research/17 section 6). SAFE-* are safety tests, never cost evidence."
+}

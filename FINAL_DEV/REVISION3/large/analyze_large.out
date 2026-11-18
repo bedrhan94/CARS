@@ -1,0 +1,15 @@
+cells 3 invalid [] identity {'0': {'B9_B9f': True, 'D_Df': True}, '1': {'B9_B9f': True, 'D_Df': True}, '2': {'B9_B9f': True, 'D_Df': True}}
+   B9/D 1.338 [1.304, 1.372] {'0': 1.327, '1': 1.333, '2': 1.353}
+   B9f/Df 1.516 [1.479, 1.553] {'0': 1.502, '1': 1.513, '2': 1.532}
+   B9fs/Dfs 1.545 [1.499, 1.593] {'0': 1.551, '1': 1.524, '2': 1.56}
+   B9fs/Df 1.483 [1.447, 1.52] {'0': 1.476, '1': 1.474, '2': 1.5}
+   B9/B9f 1.109 [1.099, 1.118] {'0': 1.112, '1': 1.104, '2': 1.11}
+   D/Df 1.256 [1.249, 1.263] {'0': 1.259, '1': 1.253, '2': 1.256}
+   B9f/B9fs 1.022 [1.011, 1.032] {'0': 1.018, '1': 1.026, '2': 1.021}
+   Df/Dfs 1.042 [1.02, 1.064] {'0': 1.051, '1': 1.034, '2': 1.04}
+   B9 127.33 {'factorization_per_factorization_s': 3.9275, 'binding_per_step_s': 0.0, 'residual_per_step_s': 0.8349, 'pcg_per_step_s': 0.6584, 'shift_per_factorization_s': 0.0752, 'estimate_s': 11.7247, 'pcg_iters_per_step': 10.7937} ana 4.666666666666667 fac 21.0
+   D 95.19 {'factorization_per_factorization_s': 4.3227, 'binding_per_step_s': 0.4393, 'residual_per_step_s': 0.8398, 'pcg_per_step_s': 1.0975, 'shift_per_factorization_s': 0.0736, 'estimate_s': 13.3581, 'pcg_iters_per_step': 18.0317} ana 5.333333333333333 fac 7.0
+   B9f 114.86 {'factorization_per_factorization_s': 3.927, 'binding_per_step_s': 0.0, 'residual_per_step_s': 0.297, 'pcg_per_step_s': 0.6576, 'shift_per_factorization_s': 0.0246, 'estimate_s': 11.6634, 'pcg_iters_per_step': 10.7937} ana 4.666666666666667 fac 21.0
+   Df 75.79 {'factorization_per_factorization_s': 4.3344, 'binding_per_step_s': 0.0583, 'residual_per_step_s': 0.2966, 'pcg_per_step_s': 1.0977, 'shift_per_factorization_s': 0.0245, 'estimate_s': 13.4181, 'pcg_iters_per_step': 18.0317} ana 5.333333333333333 fac 7.0
+   B9fs 112.42 {'factorization_per_factorization_s': 3.8173, 'binding_per_step_s': 0.0, 'residual_per_step_s': 0.2954, 'pcg_per_step_s': 0.655, 'shift_per_factorization_s': 0.0246, 'estimate_s': 11.6194, 'pcg_iters_per_step': 10.7619} ana 1.0 fac 21.0
+   Dfs 72.75 {'factorization_per_factorization_s': 3.9265, 'binding_per_step_s': 0.0577, 'residual_per_step_s': 0.2965, 'pcg_per_step_s': 1.0949, 'shift_per_factorization_s': 0.0243, 'estimate_s': 13.2939, 'pcg_iters_per_step': 18.0794} ana 1.0 fac 7.0

@@ -1,0 +1,48 @@
+{
+ "arms": {
+  "B9": {
+   "VERIFIED": 21,
+   "certified": 21,
+   "target_met": 21
+  },
+  "B9s": {
+   "VERIFIED": 21,
+   "certified": 21,
+   "target_met": 21
+  },
+  "D": {
+   "VERIFIED": 21,
+   "certified": 21,
+   "target_met": 21
+  },
+  "Ds": {
+   "VERIFIED": 21,
+   "certified": 21,
+   "target_met": 21
+  }
+ },
+ "errors": [],
+ "totals": {
+  "VERIFIED": 84
+ },
+ "manifest_mismatches": [],
+ "certificate_views": {
+  "B9|E3-TS|S2|204": {
+   "2": "11fd3b9864cbb23053d84b8e79adabc37de0da5068d168beb7566a41bc241aa4"
+  },
+  "B9s|E3-TS|S2|204": {
+   "2": "b1dcb4c8cfd0b8a5feb72b35c03ce76783385914e9e7874d5eaa5ff20bd34b13"
+  },
+  "D|E3-TS|S2|204": {
+   "2": "9ef04291808328209eb5d4ec4adf434fe88c0983f9d2f26ab6ba6a88328c3657"
+  },
+  "Ds|E3-TS|S2|204": {
+   "2": "0786f255c8f3acbc8334e7632776d31a394d4cb73e58d6a5b35e0b9f2c22779d"
+  }
+ },
+ "rump_reproofs": {
+  "rump_reproofs": 26,
+  "rump_cache_hits": 58
+ },
+ "seconds": 9.650057315826416
+}

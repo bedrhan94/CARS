@@ -1,0 +1,43 @@
+identity {'pairs_checked': 120, 'identical': 120}
+early runs 15 invalid 0
+   B9f/D 0.512 [0.429, 0.611] per-system faster, beyond the 1/1.2 threshold
+   Bf/D2 0.524 [0.445, 0.619] per-system faster, beyond the 1/1.2 threshold
+   B9fc/Dc 0.638 [0.524, 0.778] per-system faster, beyond the 1/1.2 threshold
+   Bfc/D2c 0.668 [0.548, 0.814] per-system faster, beyond the 1/1.2 threshold
+   B9f/B9fc 1.033 [1.031, 1.035] reuse faster (directional)
+   Bf/Bfc 1.036 [1.033, 1.039] reuse faster (directional)
+   D/Dc 1.289 [1.262, 1.317] reuse faster, beyond the 1.2 threshold
+   D2/D2c 1.318 [1.274, 1.363] reuse faster, beyond the 1.2 threshold
+   x B9f/D 0.502 [0.419, 0.602] per-system faster, beyond the 1/1.2 threshold
+   x Bf/D2 0.514 [0.435, 0.608] per-system faster, beyond the 1/1.2 threshold
+   x B9fc/Dc 0.629 [0.513, 0.772] per-system faster, beyond the 1/1.2 threshold
+   x Bfc/D2c 0.658 [0.537, 0.807] per-system faster, beyond the 1/1.2 threshold
+   B9f frozen 4.118 binding 0.0 first_est 0.16 carry 15 valid 15
+   B9fc full 3.985 binding 0.0 first_est 0.16 carry 15 valid 15
+   Bf frozen 3.778 binding 0.0 first_est 0.16 carry 6 valid 15
+   Bfc full 3.657 binding 0.0 first_est 0.16 carry 6 valid 15
+   D frozen 8.062 binding 1.895 first_est 0.16 carry 0 valid 15
+   D2 frozen 7.282 binding 1.884 first_est 0.16 carry 0 valid 15
+   D2c full 5.525 binding 0.271 first_est 0.16 carry 0 valid 15
+   Dc full 6.283 binding 0.273 first_est 0.16 carry 0 valid 15
+late runs 15 invalid 0
+   B9f/D 0.987 [0.957, 1.018] no directional difference (interval contains 1)
+   Bf/D2 0.993 [0.976, 1.012] no directional difference (interval contains 1)
+   B9fc/Dc 1.07 [1.059, 1.082] reuse faster (directional)
+   Bfc/D2c 1.072 [1.042, 1.104] reuse faster (directional)
+   B9f/B9fc 1.01 [0.997, 1.023] no directional difference (interval contains 1)
+   Bf/Bfc 1.008 [0.982, 1.035] no directional difference (interval contains 1)
+   D/Dc 1.089 [1.043, 1.138] reuse faster (directional)
+   D2/D2c 1.094 [1.061, 1.129] reuse faster (directional)
+   x B9f/D 0.976 [0.908, 1.049] no directional difference (interval contains 1)
+   x Bf/D2 0.973 [0.914, 1.036] no directional difference (interval contains 1)
+   x B9fc/Dc 1.317 [1.188, 1.46] reuse faster, beyond the 1.2 threshold
+   x Bfc/D2c 1.325 [1.198, 1.466] reuse faster, beyond the 1.2 threshold
+   B9f frozen 13.153 binding 0.0 first_est 9.63 carry 0 valid 15
+   B9fc full 13.08 binding 0.0 first_est 9.66 carry 0 valid 15
+   Bf frozen 12.956 binding 0.0 first_est 9.62 carry 0 valid 15
+   Bfc full 12.897 binding 0.0 first_est 9.69 carry 0 valid 15
+   D frozen 13.258 binding 1.195 first_est 9.6 carry 0 valid 15
+   D2 frozen 13.115 binding 1.165 first_est 9.66 carry 0 valid 15
+   D2c full 12.083 binding 0.168 first_est 9.62 carry 0 valid 15
+   Dc full 12.154 binding 0.172 first_est 9.61 carry 0 valid 15

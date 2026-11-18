@@ -1,0 +1,14 @@
+SUMMARY {"arm": "C", "measured_s": 0.5756744999816874, "certified_target": 21}
+SUMMARY {"arm": "Cc", "measured_s": 0.4338432999647921, "certified_target": 21}
+SUMMARY {"arm": "D", "measured_s": 0.5652632999699563, "certified_target": 21}
+SUMMARY {"arm": "Dc", "measured_s": 0.42859869994572364, "certified_target": 21}
+SUMMARY {"arm": "D2", "measured_s": 0.5336888000456383, "certified_target": 21}
+SUMMARY {"arm": "D2c", "measured_s": 0.4033266000042204, "certified_target": 21}
+SUMMARY {"arm": "A", "measured_s": 0.521167200000491, "certified_target": 21}
+SUMMARY {"arm": "B1", "measured_s": 0.5143653000122868, "certified_target": 21}
+SUMMARY {"arm": "B1c", "measured_s": 0.5361353000043891, "certified_target": 21}
+SUMMARY {"arm": "B", "measured_s": 0.4534278999926755, "certified_target": 21}
+SUMMARY {"arm": "Bc", "measured_s": 0.44069470003887545, "certified_target": 21}
+SUMMARY {"arm": "B9", "measured_s": 0.4793601999990642, "certified_target": 21}
+SUMMARY {"arm": "B9c", "measured_s": 0.4699222999624908, "certified_target": 21}
+CELL_DONE

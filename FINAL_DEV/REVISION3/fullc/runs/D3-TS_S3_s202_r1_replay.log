@@ -1,0 +1,2 @@
+{"arms": {"Bc": {"VERIFIED": 21, "certified": 21, "target_met": 21}, "Bf": {"VERIFIED": 21, "certified": 21, "target_met": 21}, "Bfs": {"VERIFIED": 21, "certified": 21, "target_met": 21}, "D2c": {"VERIFIED": 21, "certified": 21, "target_met": 21}, "D2f": {"VERIFIED": 21, "certified": 21, "target_met": 21}, "D2fs": {"VERIFIED": 21, "certified": 21, "target_met": 21}}, "totals": {"VERIFIED": 126}, "rump_reproofs": {"rump_reproofs": 25, "rump_cache_hits": 101}, "seconds": 11.840126037597656}
+ERRORS 0 [] MANIFEST_MISMATCHES 0

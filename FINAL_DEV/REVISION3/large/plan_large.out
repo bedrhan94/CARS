@@ -1,0 +1,9 @@
+START plan; other python processes: 0
+E3-TS_S5_s0 rc=0 why=None 742.0s
+E3-TS_S5_s1 rc=0 why=None 744.6s
+E3-TS_S5_s2 rc=0 why=None 744.1s
+CELLS DONE 3; stop=None
+replay E3-TS_S5_s0 rc=0 {'VERIFIED': 126} errors=0 2402.7s
+replay E3-TS_S5_s1 rc=0 {'VERIFIED': 126} errors=0 2494.4s
+replay E3-TS_S5_s2 rc=0 {'VERIFIED': 126} errors=0 2686.2s
+PLAN DONE

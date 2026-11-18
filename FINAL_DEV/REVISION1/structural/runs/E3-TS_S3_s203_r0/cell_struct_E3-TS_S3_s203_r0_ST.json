@@ -1,0 +1,267 @@
+{
+ "env": {
+  "mode": "ST",
+  "threads": 1,
+  "affinity": [
+   2
+  ],
+  "priority": 128,
+  "python": "3.10.0",
+  "numpy": "2.2.6",
+  "code_hash": "26c5ae24610129bc4920c8840fe386f2f32db2916f9f8399c05c56348fe4a37a",
+  "code_aggregate_10b": "f305dda539b6a51e42de5fd7862265a5233120dc9fa91eb742e3b76873924977",
+  "struct_hash": "6cfd16d26187ea6a86ace3c78b78fb701dbc157af332276dfbc953739b841ae7",
+  "target": "0x1.5798ee2308c3ap-27",
+  "split": "heldout",
+  "input_check": {
+   "checked": 21,
+   "mismatches": [],
+   "seconds": 2.4413404000079026
+  },
+  "fingerprint_before": {
+   "dense_mm_s": 0.030414199994993396,
+   "stream_s": 0.1297811999975238,
+   "cpu_freq_mhz": 3400.0,
+   "cpu_percent_system": 7.1,
+   "available_GiB": 15.975101470947266
+  },
+  "started": "2026-11-15 21:59:06",
+  "fingerprint_after": {
+   "dense_mm_s": 0.03011829999741167,
+   "stream_s": 0.12982229999033734,
+   "cpu_freq_mhz": 3400.0,
+   "cpu_percent_system": 5.4,
+   "available_GiB": 16.020240783691406
+  },
+  "finished": "2026-11-15 21:59:35",
+  "peak_wset_GiB": 0.37085723876953125
+ },
+ "results": [
+  {
+   "arm": "Ds",
+   "config": "M2A-EFT",
+   "session": "struct",
+   "family": "E3-TS",
+   "size": "S3",
+   "seed": 203,
+   "split": "heldout",
+   "repeat": 0,
+   "order": 0,
+   "n": 13872,
+   "file": "Ds\\E3-TS_S3_heldout_203_RPS_M2A-EFT_T1_lean_r0.jsonl",
+   "records": 21,
+   "certified": 21,
+   "certified_target": 21,
+   "factorizations": 5,
+   "measured_s": 5.160180100006983,
+   "io_s": 0.21118020005815197,
+   "components": {
+    "estimate": 0.3930765999830328,
+    "shift": 0.04416990000754595,
+    "anchor_F": 0.5800724999862723,
+    "anchor_V": 0.003805799991823733,
+    "precond_setup": 0.00016320000577252358,
+    "struct_setup": 0.10750499999267049,
+    "binding": 1.0571335999848088,
+    "transfer": 0.022232199989957735,
+    "solve": 1.684182100041653,
+    "residual": 1.260791100008646,
+    "other": 0.0070481000147992745,
+    "io": 0.21118020005815197
+   },
+   "pcg_iters": 368,
+   "eft_calls": 10,
+   "refreshes": 5,
+   "failure_reasons": [],
+   "nnz_factor": [
+    5953978
+   ],
+   "pardiso": {
+    "sessions": 1,
+    "analyses": 1,
+    "t_analyse": 0.045080800002324395,
+    "numeric": 5,
+    "t_numeric": 0.37982600001851097,
+    "t_envelope": 0.05703340000764001,
+    "envelope_nnz": 994014,
+    "analysed_nnz": [
+     994014
+    ]
+   },
+   "rss_GiB": 0.14284896850585938,
+   "peak_wset_GiB": 0.3541984558105469,
+   "wall_s": 7.577007599989884
+  },
+  {
+   "arm": "B9",
+   "config": "RPS-OPT-S09",
+   "session": "orig",
+   "family": "E3-TS",
+   "size": "S3",
+   "seed": 203,
+   "split": "heldout",
+   "repeat": 0,
+   "order": 1,
+   "n": 13872,
+   "file": "B9\\E3-TS_S3_heldout_203_RPS_RPS-OPT-S09_T1_lean_r0.jsonl",
+   "records": 21,
+   "certified": 21,
+   "certified_target": 21,
+   "factorizations": 21,
+   "measured_s": 3.9273726000246825,
+   "io_s": 0.39780619996599853,
+   "components": {
+    "estimate": 0.293761099994299,
+    "shift": 0.18374569996376522,
+    "anchor_F": 2.026323999991291,
+    "anchor_V": 0.015851599964662455,
+    "precond_setup": 0.000714799971319735,
+    "struct_setup": 0.0,
+    "binding": 0.0,
+    "transfer": 0.0,
+    "solve": 1.025004099981743,
+    "residual": 0.3680507000244688,
+    "other": 0.01392060013313312,
+    "io": 0.39780619996599853
+   },
+   "pcg_iters": 223,
+   "eft_calls": 0,
+   "refreshes": 21,
+   "failure_reasons": [],
+   "nnz_factor": [
+    5906116,
+    5978746
+   ],
+   "pardiso": {
+    "sessions": 1,
+    "analyses": 2,
+    "t_analyse": 0.1018507000117097,
+    "numeric": 21,
+    "t_numeric": 1.5929879000323126,
+    "t_envelope": 0.0,
+    "envelope_nnz": 0,
+    "analysed_nnz": [
+     993526,
+     993532
+    ]
+   },
+   "rss_GiB": 0.14288330078125,
+   "peak_wset_GiB": 0.3541984558105469,
+   "wall_s": 6.502314799989108
+  },
+  {
+   "arm": "D",
+   "config": "M2A-EFT",
+   "session": "orig",
+   "family": "E3-TS",
+   "size": "S3",
+   "seed": 203,
+   "split": "heldout",
+   "repeat": 0,
+   "order": 2,
+   "n": 13872,
+   "file": "D\\E3-TS_S3_heldout_203_RPS_M2A-EFT_T1_lean_r0.jsonl",
+   "records": 21,
+   "certified": 21,
+   "certified_target": 21,
+   "factorizations": 4,
+   "measured_s": 5.56349000002956,
+   "io_s": 0.18033240000659134,
+   "components": {
+    "estimate": 0.3712956999952439,
+    "shift": 0.0352421000279719,
+    "anchor_F": 0.5737912000040524,
+    "anchor_V": 0.005637199996272102,
+    "precond_setup": 0.00013550001312978566,
+    "struct_setup": 0.10705049999523908,
+    "binding": 1.0431072000064887,
+    "transfer": 0.02090990002034232,
+    "solve": 1.7740777999715647,
+    "residual": 1.6262782999983756,
+    "other": 0.005964600000879727,
+    "io": 0.18033240000659134
+   },
+   "pcg_iters": 392,
+   "eft_calls": 14,
+   "refreshes": 4,
+   "failure_reasons": [],
+   "nnz_factor": [
+    5906116,
+    5927338,
+    5978746
+   ],
+   "pardiso": {
+    "sessions": 1,
+    "analyses": 3,
+    "t_analyse": 0.15372660000866745,
+    "numeric": 4,
+    "t_numeric": 0.3149853999930201,
+    "t_envelope": 0.0,
+    "envelope_nnz": 0,
+    "analysed_nnz": [
+     993526,
+     993530,
+     993532
+    ]
+   },
+   "rss_GiB": 0.14290237426757812,
+   "peak_wset_GiB": 0.37085723876953125,
+   "wall_s": 7.933650699997088
+  },
+  {
+   "arm": "B9s",
+   "config": "RPS-OPT-S09",
+   "session": "struct",
+   "family": "E3-TS",
+   "size": "S3",
+   "seed": 203,
+   "split": "heldout",
+   "repeat": 0,
+   "order": 3,
+   "n": 13872,
+   "file": "B9s\\E3-TS_S3_heldout_203_RPS_RPS-OPT-S09_T1_lean_r0.jsonl",
+   "records": 21,
+   "certified": 21,
+   "certified_target": 21,
+   "factorizations": 21,
+   "measured_s": 3.9474166000436526,
+   "io_s": 0.42589870002120733,
+   "components": {
+    "estimate": 0.3089387999934843,
+    "shift": 0.18546699997386895,
+    "anchor_F": 2.022609400039073,
+    "anchor_V": 0.016211300026043318,
+    "precond_setup": 0.0007151000027079135,
+    "struct_setup": 0.0,
+    "binding": 0.0,
+    "transfer": 0.0,
+    "solve": 1.0288841999863507,
+    "residual": 0.3700314000452636,
+    "other": 0.014559399976860732,
+    "io": 0.42589870002120733
+   },
+   "pcg_iters": 225,
+   "eft_calls": 0,
+   "refreshes": 21,
+   "failure_reasons": [],
+   "nnz_factor": [
+    5953978
+   ],
+   "pardiso": {
+    "sessions": 1,
+    "analyses": 1,
+    "t_analyse": 0.04468690000066999,
+    "numeric": 21,
+    "t_numeric": 1.570221500020125,
+    "t_envelope": 0.057449300002190284,
+    "envelope_nnz": 994014,
+    "analysed_nnz": [
+     994014
+    ]
+   },
+   "rss_GiB": 0.14307785034179688,
+   "peak_wset_GiB": 0.37085723876953125,
+   "wall_s": 6.567432600000757
+  }
+ ]
+}

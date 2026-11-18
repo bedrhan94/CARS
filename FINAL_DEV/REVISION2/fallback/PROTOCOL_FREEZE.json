@@ -1,0 +1,13 @@
+{
+ "frozen_at": "2026-11-16 00:38:21 +0300",
+ "note": "Frozen before any timed SIMP3D evaluation cell; checks passed (check_fallback.json, ALL_OK true); smoke test on the development pilot only (instance 900, S2, early window, target 1e-6: 7 arms, 147/147 records VERIFIED, one shift-invert fallback in B9f); no SIMP3D evaluation data used.",
+ "files": {
+  "SIMP_FB_PROTOCOL.md": "c7c4464785b704d125e27581bbdf987b22f90bae2d2aed4d5ad72caea8fa078b",
+  "fallback_runner.py": "31c024661c90ce72d0e9ba2be6435c00c1f6065f695b45bcb135e457f69b7719",
+  "check_fallback.py": "76182055d936afcee00e0c3636c2c731862d012f91d69b3497ddcceb8b0b5b8c",
+  "check_fallback.json": "14055f8ce769c02a06815c3d99f1d5f37ba5f8d8cc845bc65c33384faa9c9663",
+  "run_cell_simp_fb.py": "96738ece6fcf42988aadde0ca4dbe1e0aa08f292efe6cd8824b9d77e92dc92dc",
+  "run_plan_simp_fb.py": "f24ae6558e43926a452b3e636218595bc6a60ba1ac0214a84b631a7e09f870d9",
+  "analyze_simp_fb.py": "7fe9da3ccb6a3003e1eb9f96fc5e3e36e0a57dec24107932ebc72e141bad2133"
+ }
+}

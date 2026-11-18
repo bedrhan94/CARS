@@ -1,0 +1,39 @@
+{
+ "id": "F-C-ok-downdate-2",
+ "n": 4,
+ "L": [
+  "0x1.0000000000000p+0",
+  "0x0.0p+0",
+  "0x0.0p+0",
+  "0x0.0p+0",
+  "0x1.033f788e2c305p-4",
+  "0x1.0000000000000p+0",
+  "0x0.0p+0",
+  "0x0.0p+0",
+  "0x1.19aa650c61b02p-4",
+  "-0x1.bc785718a9649p-2",
+  "0x1.0000000000000p+0",
+  "0x0.0p+0",
+  "-0x1.9b9955855aa4ap-4",
+  "-0x1.7c73e9131783cp-3",
+  "0x1.2ab4703cd9defp-3",
+  "0x1.0000000000000p+0"
+ ],
+ "d": [
+  "0x1.1e004dbdf56b5p-7",
+  "0x1.987e35e40a516p+1",
+  "0x1.1ee6d89df6da3p+5",
+  "0x1.076f0cbc65a1ep+3"
+ ],
+ "alpha": "-0x1.46b0c6fab9c12p-10",
+ "w": [
+  "-0x1.4c3b2f938b1afp+1",
+  "0x0.0p+0",
+  "0x0.0p+0",
+  "0x1.43e6a88246721p+0"
+ ],
+ "expected_status": "OK",
+ "exact_residual_fro": "0x1.05db6960e7bbep-48",
+ "reference_B": "0x1.2692018e5b394p-46",
+ "requirement": "exact ||LDL^T + alpha w w^T - L'D'L'^T||_2 <= B_returned; all d' > 0; L' unit lower"
+}

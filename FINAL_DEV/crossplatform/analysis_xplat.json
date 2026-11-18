@@ -1,0 +1,851 @@
+{
+ "cells": {
+  "D3-TS_S3_s200_r0_ST": {
+   "linux_replay": {
+    "VERIFIED": 147
+   },
+   "windows_replay": {
+    "VERIFIED": 147
+   },
+   "arms": {
+    "C": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.3168136879999395,
+     "windows_measured_s": 1.5609767999849282
+    },
+    "D": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.2786436279999691,
+     "windows_measured_s": 1.5130847000546055
+    },
+    "D2": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.13347369600001,
+     "windows_measured_s": 1.4167054999707034
+    },
+    "A": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.2726454300000398,
+     "windows_measured_s": 1.5241078000108246
+    },
+    "B1": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.2762273380000408,
+     "windows_measured_s": 1.5417051999975229
+    },
+    "B": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.041680269000068,
+     "windows_measured_s": 1.2288089999783551
+    },
+    "B9": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.1793970669999396,
+     "windows_measured_s": 1.3535320999362739
+    }
+   }
+  },
+  "D3-TS_S3_s201_r0_ST": {
+   "linux_replay": {
+    "VERIFIED": 147
+   },
+   "windows_replay": {
+    "VERIFIED": 147
+   },
+   "arms": {
+    "D": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.222345687000029,
+     "windows_measured_s": 1.5426064999774098
+    },
+    "D2": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.0305609890000937,
+     "windows_measured_s": 1.3462430000072345
+    },
+    "A": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.2902128920000564,
+     "windows_measured_s": 1.478597799956333
+    },
+    "B1": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.2487447459999999,
+     "windows_measured_s": 1.4497930999787059
+    },
+    "B": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 0.9688637210000479,
+     "windows_measured_s": 1.194259299983969
+    },
+    "B9": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.1112892670000747,
+     "windows_measured_s": 1.387478499993449
+    },
+    "C": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.2670760949998225,
+     "windows_measured_s": 1.6181615999521455
+    }
+   }
+  },
+  "D3-TS_S3_s202_r0_ST": {
+   "linux_replay": {
+    "VERIFIED": 147
+   },
+   "windows_replay": {
+    "VERIFIED": 147
+   },
+   "arms": {
+    "D2": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 17,
+     "same_matrix": 21,
+     "linux_measured_s": 1.2039362109999274,
+     "windows_measured_s": 1.359668299977784
+    },
+    "A": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.3641452109995953,
+     "windows_measured_s": 1.4437744000169914
+    },
+    "B1": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.3595695740002611,
+     "windows_measured_s": 1.434524299998884
+    },
+    "B": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.0541782650001323,
+     "windows_measured_s": 1.1907681000302546
+    },
+    "B9": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.1380792699999347,
+     "windows_measured_s": 1.2844572999456432
+    },
+    "C": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.1394379339999432,
+     "windows_measured_s": 1.5247529000334907
+    },
+    "D": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.233974620000481,
+     "windows_measured_s": 1.4632393999781925
+    }
+   }
+  },
+  "D3-TS_S3_s203_r0_ST": {
+   "linux_replay": {
+    "VERIFIED": 147
+   },
+   "windows_replay": {
+    "VERIFIED": 147
+   },
+   "arms": {
+    "A": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.3914591489997292,
+     "windows_measured_s": 1.477941000033752
+    },
+    "B1": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.355006748999699,
+     "windows_measured_s": 1.4424049999943236
+    },
+    "B": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.0834904389998883,
+     "windows_measured_s": 1.1860921000188682
+    },
+    "B9": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.233241570999894,
+     "windows_measured_s": 1.3266579000483034
+    },
+    "C": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.1885270079995962,
+     "windows_measured_s": 1.4864392999734264
+    },
+    "D": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.24708092900039,
+     "windows_measured_s": 1.4843154000263894
+    },
+    "D2": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.0852613010000596,
+     "windows_measured_s": 1.3439136000233702
+    }
+   }
+  },
+  "D3-TS_S3_s204_r0_ST": {
+   "linux_replay": {
+    "VERIFIED": 147
+   },
+   "windows_replay": {
+    "VERIFIED": 147
+   },
+   "arms": {
+    "B1": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.3279701840001508,
+     "windows_measured_s": 1.4621557999926154
+    },
+    "B": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.0216196950000267,
+     "windows_measured_s": 1.2041872999398038
+    },
+    "B9": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.1615496659994733,
+     "windows_measured_s": 1.3141100999928312
+    },
+    "C": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.2255063360004215,
+     "windows_measured_s": 1.4390577000158373
+    },
+    "D": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.1846815769997647,
+     "windows_measured_s": 1.428764299969771
+    },
+    "D2": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.0976068580000629,
+     "windows_measured_s": 1.335979600000428
+    },
+    "A": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 1.354161280999847,
+     "windows_measured_s": 1.4518325999961235
+    }
+   }
+  },
+  "E3-TS_S3_s200_r0_ST": {
+   "linux_replay": {
+    "VERIFIED": 147
+   },
+   "windows_replay": {
+    "VERIFIED": 147
+   },
+   "arms": {
+    "C": {
+     "parity": false,
+     "certified_target": 15,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 3.7603113799999974,
+     "windows_measured_s": 4.263027599998168
+    },
+    "D": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.025634283000031,
+     "windows_measured_s": 4.8405614999937825
+    },
+    "D2": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.513542697999995,
+     "windows_measured_s": 5.7751394999504555
+    },
+    "A": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.101837812000014,
+     "windows_measured_s": 4.31241420005972
+    },
+    "B1": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.036024647999994,
+     "windows_measured_s": 4.2856217000080505
+    },
+    "B": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.565096177000001,
+     "windows_measured_s": 5.606057399971178
+    },
+    "B9": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 3.5886292359999743,
+     "windows_measured_s": 3.9177175000222633
+    }
+   }
+  },
+  "E3-TS_S3_s201_r0_ST": {
+   "linux_replay": {
+    "VERIFIED": 147
+   },
+   "windows_replay": {
+    "VERIFIED": 147
+   },
+   "arms": {
+    "D": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.50513161899994,
+     "windows_measured_s": 5.810426000025473
+    },
+    "D2": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.584847436999979,
+     "windows_measured_s": 5.95554969998193
+    },
+    "A": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.130342337999991,
+     "windows_measured_s": 4.357210999995004
+    },
+    "B1": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.008319732999951,
+     "windows_measured_s": 4.362733000016306
+    },
+    "B": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.485701132999992,
+     "windows_measured_s": 5.579991399979917
+    },
+    "B9": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 3.4891273120001642,
+     "windows_measured_s": 3.9592336999921827
+    },
+    "C": {
+     "parity": false,
+     "certified_target": 5,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 3.5621636080001053,
+     "windows_measured_s": 4.163441899974714
+    }
+   }
+  },
+  "E3-TS_S3_s202_r0_ST": {
+   "linux_replay": {
+    "VERIFIED": 147
+   },
+   "windows_replay": {
+    "VERIFIED": 147
+   },
+   "arms": {
+    "D2": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 5.132328104999942,
+     "windows_measured_s": 6.000515400010045
+    },
+    "A": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 5.059976739000035,
+     "windows_measured_s": 4.553732999993372
+    },
+    "B1": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.701832430000081,
+     "windows_measured_s": 4.540422300007776
+    },
+    "B": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 5.441142182000078,
+     "windows_measured_s": 5.709466699976474
+    },
+    "B9": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.660898356000075,
+     "windows_measured_s": 4.142218300010427
+    },
+    "C": {
+     "parity": false,
+     "certified_target": 16,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.600541992000103,
+     "windows_measured_s": 4.26752460001444
+    },
+    "D": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.5925028339999585,
+     "windows_measured_s": 4.771914800032391
+    }
+   }
+  },
+  "E3-TS_S3_s203_r0_ST": {
+   "linux_replay": {
+    "VERIFIED": 147
+   },
+   "windows_replay": {
+    "VERIFIED": 147
+   },
+   "arms": {
+    "A": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.033314398999551,
+     "windows_measured_s": 4.347143799983314
+    },
+    "B1": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.097694332000287,
+     "windows_measured_s": 4.322926799970446
+    },
+    "B": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.473103911999829,
+     "windows_measured_s": 5.589765099983197
+    },
+    "B9": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 3.556020813000032,
+     "windows_measured_s": 3.934684300009394
+    },
+    "C": {
+     "parity": false,
+     "certified_target": 9,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 3.6931898309998132,
+     "windows_measured_s": 4.240241899969988
+    },
+    "D": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.2246905039997955,
+     "windows_measured_s": 5.475765399998636
+    },
+    "D2": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.4232136049997735,
+     "windows_measured_s": 5.857438300037757
+    }
+   }
+  },
+  "E3-TS_S3_s204_r0_ST": {
+   "linux_replay": {
+    "VERIFIED": 147
+   },
+   "windows_replay": {
+    "VERIFIED": 147
+   },
+   "arms": {
+    "B1": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 3.8588316829994938,
+     "windows_measured_s": 4.282835000005434
+    },
+    "B": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.36249368700021,
+     "windows_measured_s": 5.457329599987133
+    },
+    "B9": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 3.4544678299997713,
+     "windows_measured_s": 3.841370599999209
+    },
+    "C": {
+     "parity": false,
+     "certified_target": 14,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 3.557859378000103,
+     "windows_measured_s": 4.0773019999905955
+    },
+    "D": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 3.7004345340002374,
+     "windows_measured_s": 4.690098000050057
+    },
+    "D2": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.326547595999614,
+     "windows_measured_s": 5.658159899976454
+    },
+    "A": {
+     "parity": true,
+     "certified_target": 21,
+     "identical_certificates": 0,
+     "same_matrix": 21,
+     "linux_measured_s": 4.0502825739999935,
+     "windows_measured_s": 4.2800002000440145
+    }
+   }
+  }
+ },
+ "totals": {
+  "records": 1470,
+  "linux_verified": 1470,
+  "windows_verified": 1470,
+  "identical_certificates": 17,
+  "same_matrix": 1470,
+  "parity_valid_arms": 65,
+  "arms": 70
+ },
+ "components_mean_exploratory": {
+  "E3-TS|B9|linux": {
+   "estimate": 0.351081788999997,
+   "shift": 0.10044407940012831,
+   "anchor_F": 1.9060857254000438,
+   "anchor_V": 0.015514196599960428,
+   "precond_setup": 0.0006767621999728135,
+   "struct_setup": 0.0,
+   "binding": 0.0,
+   "transfer": 0.0,
+   "solve": 1.0987036829999568,
+   "residual": 0.2713977064000289,
+   "other": 0.005924767399915254,
+   "io": 0.4606091290000819,
+   "measured": 3.7498287094000036
+  },
+  "E3-TS|B9|windows": {
+   "estimate": 0.3232540600001812,
+   "shift": 0.18332622000889387,
+   "anchor_F": 2.049675620012567,
+   "anchor_V": 0.01485124002210796,
+   "precond_setup": 0.0006981600192375482,
+   "struct_setup": 0.0,
+   "binding": 0.0,
+   "transfer": 0.0,
+   "solve": 1.0027744000137317,
+   "residual": 0.36986521998769606,
+   "other": 0.014599959942279384,
+   "io": 0.4339164399978472,
+   "measured": 3.959044880006695
+  },
+  "E3-TS|D|linux": {
+   "estimate": 0.4478457833999755,
+   "shift": 0.024381959200024995,
+   "anchor_F": 0.5408376356000218,
+   "anchor_V": 0.003474310799953173,
+   "precond_setup": 0.00014907520001372632,
+   "struct_setup": 0.07169361719999756,
+   "binding": 0.6753068915999705,
+   "transfer": 0.012660808000018165,
+   "solve": 1.718916179200025,
+   "residual": 0.7091373115999431,
+   "other": 0.005275183000048855,
+   "io": 0.33817635099989046,
+   "measured": 4.2096787547999925
+  },
+  "E3-TS|D|windows": {
+   "estimate": 0.3987320199899841,
+   "shift": 0.040175819987780415,
+   "anchor_F": 0.5773017199971946,
+   "anchor_V": 0.0032810599979711695,
+   "precond_setup": 0.00015032000374048948,
+   "struct_setup": 0.10984417999861762,
+   "binding": 1.056453519986826,
+   "transfer": 0.022091600025305524,
+   "solve": 1.6507499600120354,
+   "residual": 1.252179879997857,
+   "other": 0.006793060022755526,
+   "io": 0.23917575999803375,
+   "measured": 5.117753140020068
+  },
+  "D3-TS|B|linux": {
+   "estimate": 0.03859114040000122,
+   "shift": 0.029786209800050756,
+   "anchor_F": 0.4984947715999056,
+   "anchor_V": 0.0058902617999024185,
+   "precond_setup": 0.0006778950000409622,
+   "struct_setup": 0.0,
+   "binding": 0.0,
+   "transfer": 0.0,
+   "solve": 0.35791886039998533,
+   "residual": 0.09749708659991825,
+   "other": 0.0051102522002281605,
+   "io": 0.36309663760007427,
+   "measured": 1.0339664778000326
+  },
+  "D3-TS|B|windows": {
+   "estimate": 0.03925241999968421,
+   "shift": 0.07022650000581052,
+   "anchor_F": 0.5955467800027691,
+   "anchor_V": 0.005167259977315553,
+   "precond_setup": 0.0007396599859930575,
+   "struct_setup": 0.0,
+   "binding": 0.0,
+   "transfer": 0.0,
+   "solve": 0.3358417199895484,
+   "residual": 0.1456232199911028,
+   "other": 0.008425600038026459,
+   "io": 0.2501066999830073,
+   "measured": 1.2008231599902501
+  },
+  "D3-TS|D2|linux": {
+   "estimate": 0.06421246259995997,
+   "shift": 0.0067906536000464255,
+   "anchor_F": 0.1473017983999796,
+   "anchor_V": 0.001333138200010353,
+   "precond_setup": 0.00015357520001089143,
+   "struct_setup": 0.023710974600010103,
+   "binding": 0.22535210419988516,
+   "transfer": 0.016692659000102594,
+   "solve": 0.5248976551999931,
+   "residual": 0.09524903099999733,
+   "other": 0.004473759000035216,
+   "io": 0.32058837660002837,
+   "measured": 1.1101678110000308
+  },
+  "D3-TS|D2|windows": {
+   "estimate": 0.06723077999486123,
+   "shift": 0.01609178001235705,
+   "anchor_F": 0.17285954000835774,
+   "anchor_V": 0.0011753399943700061,
+   "precond_setup": 0.00016178000369109212,
+   "struct_setup": 0.03729375999828335,
+   "binding": 0.3607783600251423,
+   "transfer": 0.03298146000597626,
+   "solve": 0.5216214400075841,
+   "residual": 0.14497219999320804,
+   "other": 0.005335559952072799,
+   "io": 0.19233893999480642,
+   "measured": 1.360501999995904
+  }
+ },
+ "stream_fingerprint_s": {
+  "linux": [
+   0.04360864299999889,
+   0.06576110800000379
+  ],
+  "windows": [
+   0.12316160000045784,
+   0.1314286999986507
+  ]
+ },
+ "primary_ratio_repeat0": {
+  "E3-TS": {
+   "pair": "B9/D",
+   "linux_per_seed": [
+    0.8914444243369305,
+    0.7744784408262615,
+    1.014892864408,
+    0.8417233900645055,
+    0.9335303187394667
+   ],
+   "windows_per_seed": [
+    0.8093518696182861,
+    0.6814016218388851,
+    0.8680411267993112,
+    0.7185633445893015,
+    0.8190384507867875
+   ],
+   "linux_gm": 0.8874917519430704,
+   "windows_gm": 0.7761935648413791
+  },
+  "D3-TS": {
+   "pair": "B/D2",
+   "linux_per_seed": [
+    0.9190158295478069,
+    0.9401323466940973,
+    0.8756097336125359,
+    0.9983682620963823,
+    0.9307701455706175
+   ],
+   "windows_per_seed": [
+    0.8673708120733393,
+    0.8871052996951896,
+    0.8757783792191896,
+    0.8825657393438406,
+    0.9013515625084529
+   ],
+   "linux_gm": 0.9319468739065053,
+   "windows_gm": 0.8827609134918202
+  }
+ },
+ "linux_environment_excerpt": [
+  "Linux <host> 6.6.87.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux",
+  "PRETTY_NAME=\"Ubuntu 24.04.4 LTS\"",
+  "Python 3.12.3",
+  "Model name:                           Intel(R) Core(TM) i7-14700K"
+ ]
+}

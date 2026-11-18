@@ -1,0 +1,13 @@
+{
+ "frozen_at": "2026-11-16 00:38:21 +0300",
+ "note": "Frozen before any timed cell of the compiled-kernel experiment; equivalence test passed (test_kernels.json, ALL_IDENTICAL true); smoke test on development seed 0 (E3-TS S1) only (13 arms, 273/273 records VERIFIED, frozen/compiled identity 6/6).",
+ "files": {
+  "COMPILED_PROTOCOL.md": "2f2d1ae9a6b3d789cda6d510edf3bd26d61c186684692669e3f48e9ecb4dc5e4",
+  "compiled_kernels.py": "1fcc251ede5115f8b469797d308f240fe9a3db54c37543a5ff49e9e676716893",
+  "test_kernels.py": "898b8eb5df3a6e9e35e408e40a3b308e71559b385b087928bdb8e9b235e0ca34",
+  "test_kernels.json": "5ebff201466dd38baa789812d1172cc4c39d0295086ec7aeb65b4a0393884fd0",
+  "run_cell_compiled.py": "294ad6963f33a23ff7c8036875ff014226899f7ccaac2e7f7e298b0a8db15d8c",
+  "run_plan_compiled.py": "09ef540dc59dc8142fd93e4b319f2cea0bfdc8cf4c9fd2748af816fa979899da",
+  "analyze_compiled.py": "05bbdf77d601f237a279e38a0a03321523fc92734d383b6c244f463998c49097"
+ }
+}

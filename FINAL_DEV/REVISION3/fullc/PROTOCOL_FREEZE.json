@@ -1,0 +1,14 @@
+{
+ "frozen_at": "2026-11-16 19:57:29 +0300",
+ "note": "Frozen before any timed cell of the full-compilation experiment; equivalence test passed (test_shift.json, ALL_IDENTICAL true); development smoke test (E3-TS S1, seed 0) only.",
+ "files": {
+  "FULLC_PROTOCOL.md": "21313e931324b9e0c5b8414161dffb0966e47c0860acf0ad26187c1ccc018fd5",
+  "compiled_full.py": "a427a9408852bbb1dee70ac51e971be750c09368d54932bd7d7199bf3fa96ce2",
+  "test_shift.py": "d5b0e13713e446792b352fa54f9d340f295d44888ab67637e93aeae278502534",
+  "test_shift.json": "515cd3e60c0f624e9cbe34ffd70361c890fb55c6e097fce1091fbf0bad105d59",
+  "run_cell_fullc.py": "0b2eb8819c38b62e8dcf622e210aa15c38eb02e9af0cf7ab427dc904636c22db",
+  "run_plan_fullc.py": "900ecfcff1962485ec4737cc3d27669ffc837f93c94e309e1a08d75e2e471c9a",
+  "analyze_fullc.py": "740c3ddf993718abe7187070402459c6a10f8b11ec528b7f6d9edc651cfbfb74",
+  "cg_overhead.py": "8c25a968caeb94a0fecfa2fa2dfad7e4da4e72c2fa44f5f455afe3944f5801d8"
+ }
+}

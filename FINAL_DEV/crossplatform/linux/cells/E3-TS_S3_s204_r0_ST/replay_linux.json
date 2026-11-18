@@ -1,0 +1,36 @@
+{
+ "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+ "totals": {
+  "VERIFIED": 147
+ },
+ "errors": [],
+ "arms": {
+  "A": {
+   "VERIFIED": 21
+  },
+  "B": {
+   "VERIFIED": 21
+  },
+  "B1": {
+   "VERIFIED": 21
+  },
+  "B9": {
+   "VERIFIED": 21
+  },
+  "C": {
+   "VERIFIED": 21
+  },
+  "D": {
+   "VERIFIED": 21
+  },
+  "D2": {
+   "VERIFIED": 21
+  }
+ },
+ "input_mismatches": {},
+ "rump_reproofs": {
+  "rump_reproofs": 70,
+  "rump_cache_hits": 77
+ },
+ "seconds": 79.49323987960815
+}

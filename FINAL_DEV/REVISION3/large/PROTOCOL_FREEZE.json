@@ -1,0 +1,14 @@
+{
+ "frozen_at": "2026-11-16 19:57:30 +0300",
+ "note": "Frozen before any timed cell of the large-size experiment; feasibility probe and input manifest on development data only; harness smoke test at E3-TS S1 seed 0.",
+ "files": {
+  "LARGE_PROTOCOL.md": "949afa6828d5cd4dae713409e1a50506cd725f868c03a2dd9c453d4b92355063",
+  "probe_large.py": "9d90f41ba760b609b1f59ddc2e8ac33fa92a091945e1560f2d272bd4a210c768",
+  "probe_large.json": "e896d07242637c19a7a19e9bc52f706d02164a2a1b2e803079c01832a52c6fe1",
+  "prepare_large.py": "34cfbf98a1203870f3bfd201c36763d648168a2180a3a2c07eb8e431e03b2710",
+  "inputs_manifest_large.json": "754f39aa02b2ab78188aa692ec14aac68c0e7124a6f1bea02354dc50f4db4082",
+  "run_cell_large.py": "f7c1a83d4bc1c3a43c631ad27e0c18f086a40f5df3735b31229cec79d99240a1",
+  "run_plan_large.py": "2b56145632dc0a917559f06f21db495ce37e2ee45e0021b20f1a88c9f7c53742",
+  "analyze_large.py": "bb3b55604db0adf6e276fa3af204c4091e944d4aa462f3faad2a7401382e204d"
+ }
+}

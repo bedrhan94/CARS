@@ -1,0 +1,136 @@
+{
+ "E3-TS": {
+  "solves": [
+   {
+    "t": 1,
+    "iters": 17,
+    "total_s": 0.07050370000069961,
+    "matvec_s": 0.011063600017223507,
+    "precond_s": 0.05810530003509484,
+    "overhead_per_iter_s": 7.851764402242706e-05,
+    "same_iterate": true
+   },
+   {
+    "t": 2,
+    "iters": 22,
+    "total_s": 0.0915652000112459,
+    "matvec_s": 0.013894899951992556,
+    "precond_s": 0.07752299998537637,
+    "overhead_per_iter_s": 6.695457903498953e-06,
+    "same_iterate": true
+   },
+   {
+    "t": 3,
+    "iters": 25,
+    "total_s": 0.1069652000151109,
+    "matvec_s": 0.017005499976221472,
+    "precond_s": 0.08500880002975464,
+    "overhead_per_iter_s": 0.00019803600036539138,
+    "same_iterate": true
+   },
+   {
+    "t": 4,
+    "iters": 27,
+    "total_s": 0.1171934999874793,
+    "matvec_s": 0.01767700002528727,
+    "precond_s": 0.0972250999766402,
+    "overhead_per_iter_s": 8.486666613154941e-05,
+    "same_iterate": true
+   },
+   {
+    "t": 5,
+    "iters": 28,
+    "total_s": 0.11761839999235235,
+    "matvec_s": 0.017973799898754805,
+    "precond_s": 0.09686079999664798,
+    "overhead_per_iter_s": 9.942143203391294e-05,
+    "same_iterate": true
+   }
+  ],
+  "overhead_per_iter_s": 8.486666613154941e-05
+ },
+ "D3-TS": {
+  "solves": [
+   {
+    "t": 1,
+    "iters": 17,
+    "total_s": 0.02395470000919886,
+    "matvec_s": 0.0032799000036902726,
+    "precond_s": 0.02100309991510585,
+    "overhead_per_iter_s": -1.931175938807428e-05,
+    "same_iterate": true
+   },
+   {
+    "t": 2,
+    "iters": 20,
+    "total_s": 0.028659300005529076,
+    "matvec_s": 0.003688300057547167,
+    "precond_s": 0.023633299948414788,
+    "overhead_per_iter_s": 6.688499997835607e-05,
+    "same_iterate": true
+   },
+   {
+    "t": 3,
+    "iters": 23,
+    "total_s": 0.03223239997169003,
+    "matvec_s": 0.003981000074418262,
+    "precond_s": 0.0259102999989409,
+    "overhead_per_iter_s": 0.00010178695210134205,
+    "same_iterate": true
+   },
+   {
+    "t": 4,
+    "iters": 26,
+    "total_s": 0.0363884000107646,
+    "matvec_s": 0.004818200046429411,
+    "precond_s": 0.030809199990471825,
+    "overhead_per_iter_s": 2.926922976397551e-05,
+    "same_iterate": true
+   },
+   {
+    "t": 5,
+    "iters": 27,
+    "total_s": 0.038020200008759275,
+    "matvec_s": 0.004825300013180822,
+    "precond_s": 0.03135080003994517,
+    "overhead_per_iter_s": 6.829999835678825e-05,
+    "same_iterate": true
+   }
+  ],
+  "overhead_per_iter_s": 6.688499997835607e-05
+ },
+ "estimate_per_sequence": {
+  "E3-TS": {
+   "per_system_arm": "B9f",
+   "reuse_arm": "Df",
+   "iters_per_sequence": [
+    227.4,
+    374.0
+   ],
+   "overhead_s": [
+    0.019298679878314337,
+    0.03174013313319948
+   ],
+   "cost_s": [
+    4.214729819976492,
+    3.9470009999873583
+   ]
+  },
+  "D3-TS": {
+   "per_system_arm": "Bf",
+   "reuse_arm": "D2f",
+   "iters_per_sequence": [
+    210.8,
+    328.8
+   ],
+   "overhead_s": [
+    0.01409935799543746,
+    0.021991787992883476
+   ],
+   "cost_s": [
+    1.2935870200104547,
+    1.2595607600116636
+   ]
+  }
+ }
+}

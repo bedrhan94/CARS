@@ -1,0 +1,74 @@
+EFT E3-TS S3 200 105 105 12s
+EFT E3-TS S3 201 105 105 23s
+EFT E3-TS S3 202 105 105 35s
+EFT E3-TS S3 203 105 105 46s
+EFT E3-TS S3 204 105 105 58s
+EFT D3-TS S3 200 105 105 62s
+EFT D3-TS S3 201 105 105 66s
+EFT D3-TS S3 202 105 105 70s
+EFT D3-TS S3 203 105 105 73s
+EFT D3-TS S3 204 105 105 77s
+EFT E3-TS S2 200 105 105 82s
+EFT E3-TS S2 201 105 105 87s
+EFT E3-TS S2 202 105 105 92s
+EFT E3-TS S2 203 105 105 96s
+EFT E3-TS S2 204 105 105 101s
+EFT D3-TS S2 200 105 105 103s
+EFT D3-TS S2 201 105 105 105s
+EFT D3-TS S2 202 105 105 107s
+EFT D3-TS S2 203 105 105 109s
+EFT D3-TS S2 204 105 105 110s
+<CARS>\PHASE10A_DEV\eft\eft_residual.py:126: RuntimeWarning: overflow encountered in multiply
+  R = float(v.up(np.sqrt(v.sum_nonneg_hi(v.up(vi * vi)))))
+<CARS>\FINAL_DEV\REVISION2\compiled\compiled_kernels.py:181: RuntimeWarning: overflow encountered in multiply
+  R = float(v.up(np.sqrt(v.sum_nonneg_hi(v.up(vi * vi)))))       # frozen final reduction (pairwise np.sum)
+<CARS>\PHASE3B_DEV\work\CARS_M0_M1\cars\_reference_m0.py:134: RuntimeWarning: overflow encountered in multiply
+  return float(finite_or_fail(up(np.sqrt(sum_nonneg_hi(up(v * v)))), "R_hi"))
+<CARS>\PHASE10A_DEV\eft\eft_residual.py:80: RuntimeWarning: overflow encountered in multiply
+  P = VAL * X
+<CARS>\PHASE10A_DEV\eft\eft_residual.py:82: RuntimeWarning: overflow encountered in multiply
+  E = al * bl - (((P - ah * bh) - al * bh) - ah * bl)
+<CARS>\PHASE10A_DEV\eft\eft_residual.py:82: RuntimeWarning: invalid value encountered in subtract
+  E = al * bl - (((P - ah * bh) - al * bh) - ah * bl)
+<CARS>\PHASE10A_DEV\eft\eft_residual.py:104: RuntimeWarning: overflow encountered in add
+  np.add(s, pk, out=sn); np.subtract(sn, s, out=bb)
+<CARS>\PHASE10A_DEV\eft\eft_residual.py:105: RuntimeWarning: invalid value encountered in subtract
+  np.subtract(sn, bb, out=t1); np.subtract(s, t1, out=t1)
+<CARS>\PHASE10A_DEV\eft\eft_residual.py:104: RuntimeWarning: invalid value encountered in subtract
+  np.add(s, pk, out=sn); np.subtract(sn, s, out=bb)
+<CARS>\PHASE10A_DEV\eft\eft_residual.py:33: RuntimeWarning: invalid value encountered in subtract
+  bb = s - a
+SYNTH {"generic": {"cases": 150, "identical": 150, "outcomes": ["ok:eft"]}, "near-solution": {"cases": 150, "identical": 150, "outcomes": ["ok:eft"]}, "wide-exponent": {"cases": 30, "identical": 30, "outcomes": ["raise:NONFINITE"]}, "nonfinite-input": {"cases": 20, "identical": 20, "outcomes": ["raise:NONFINITE"]}, "split-overflow": {"cases": 20, "identical": 20, "outcomes": ["raise:NONFINITE"]}, "tp-underflow": {"cases": 20, "identical": 20, "outcomes": ["ok:TWOPRODUCT_UNDERFLOW"]}, "nonfinite-product": {"cases": 20, "identical": 20, "outcomes": ["raise:NONFINITE"]}, "nonfinite-sum": {"cases": 20, "identical": 20, "outcomes": ["raise:NONFINITE"]}, "large-bound": {"cases": 20, "identical": 20, "outcomes": ["raise:NONFINITE"]}, "zero-x": {"cases": 20, "identical": 20, "outcomes": ["ok:eft"]}, "explicit-zeros": {"cases": 20, "identical": 20, "outcomes": ["ok:eft"]}, "subnormal-b": {"cases": 20, "identical": 20, "outcomes": ["ok:eft"]}, "split-overflow-finite": {"cases": 20, "identical": 20, "outcomes": ["ok:SPLIT_OVERFLOW_RISK"]}, "partial-underflow": {"cases": 20, "identical": 20, "outcomes": ["ok:TWOPRODUCT_UNDERFLOW"]}, "nonfinite-b": {"cases": 20, "identical": 20, "outcomes": ["raise:NONFINITE"]}, "moderate-wide-exponent": {"cases": 40, "identical": 40, "outcomes": ["ok:eft"]}}
+BIND E3-TS S2 200 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 104, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+BIND E3-TS S2 201 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 104, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+BIND E3-TS S2 202 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 104, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+BIND E3-TS S2 203 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 104, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+BIND E3-TS S2 204 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 104, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+BIND D3-TS S2 200 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 104, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+BIND D3-TS S2 201 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 102, 'zero_coeff': 5, 'zero_coeff_ok': 5, 'accepted_correctly': 2, 'accepted_cases': ['coeff', 'coeff']}
+BIND D3-TS S2 202 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 103, 'zero_coeff': 5, 'zero_coeff_ok': 5, 'accepted_correctly': 1, 'accepted_cases': ['coeff']}
+BIND D3-TS S2 203 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 103, 'zero_coeff': 5, 'zero_coeff_ok': 5, 'accepted_correctly': 1, 'accepted_cases': ['coeff']}
+BIND D3-TS S2 204 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 104, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+BIND E3-TS S3 200 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 104, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+BIND E3-TS S3 201 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 104, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+BIND E3-TS S3 202 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 104, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+BIND E3-TS S3 203 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 104, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+BIND E3-TS S3 204 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 104, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+BIND D3-TS S3 200 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 104, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+BIND D3-TS S3 201 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 101, 'zero_coeff': 5, 'zero_coeff_ok': 5, 'accepted_correctly': 3, 'accepted_cases': ['coeff', 'coeff', 'coeff']}
+BIND D3-TS S3 202 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 102, 'zero_coeff': 5, 'zero_coeff_ok': 5, 'accepted_correctly': 2, 'accepted_cases': ['coeff', 'coeff']}
+BIND D3-TS S3 203 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 101, 'zero_coeff': 5, 'zero_coeff_ok': 5, 'accepted_correctly': 3, 'accepted_cases': ['coeff', 'coeff', 'coeff']}
+BIND D3-TS S3 204 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 104, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+BIND E3-TS S0 0 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 93, 'negatives_rejected': 93, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+BIND E3-TS S0 1 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 94, 'negatives_rejected': 94, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+BIND E3-TS S0 2 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 95, 'negatives_rejected': 95, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+BIND D3-TS S0 0 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 83, 'negatives_rejected': 81, 'zero_coeff': 5, 'zero_coeff_ok': 5, 'accepted_correctly': 2, 'accepted_cases': ['coeff', 'coeff']}
+BIND D3-TS S0 1 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 83, 'negatives_rejected': 77, 'zero_coeff': 5, 'zero_coeff_ok': 5, 'accepted_correctly': 6, 'accepted_cases': ['coeff', 'coeff', 'coeff', 'coeff', 'coeff', 'coeff']}
+BIND D3-TS S0 2 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 83, 'negatives_rejected': 76, 'zero_coeff': 5, 'zero_coeff_ok': 5, 'accepted_correctly': 7, 'accepted_cases': ['coeff', 'coeff', 'coeff', 'coeff', 'coeff', 'coeff', 'coeff']}
+BIND E3-TS S1 0 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 104, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+BIND E3-TS S1 1 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 104, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+BIND E3-TS S1 2 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 104, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+BIND D3-TS S1 0 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 101, 'zero_coeff': 5, 'zero_coeff_ok': 5, 'accepted_correctly': 3, 'accepted_cases': ['coeff', 'coeff', 'coeff']}
+BIND D3-TS S1 1 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 98, 'zero_coeff': 5, 'zero_coeff_ok': 5, 'accepted_correctly': 6, 'accepted_cases': ['coeff', 'coeff', 'coeff', 'coeff', 'coeff', 'coeff']}
+BIND D3-TS S1 2 {'steps': 21, 'data_identical': 21, 'true_accepted': 21, 'negatives': 104, 'negatives_rejected': 104, 'zero_coeff': 5, 'zero_coeff_ok': 5}
+ALL_IDENTICAL True failures 0 []

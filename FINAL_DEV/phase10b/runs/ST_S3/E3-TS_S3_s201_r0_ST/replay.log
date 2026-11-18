@@ -1,0 +1,2 @@
+{"arms": {"A": {"VERIFIED": 21, "certified": 21, "target_met": 21}, "B": {"VERIFIED": 21, "certified": 21, "target_met": 21}, "B1": {"VERIFIED": 21, "certified": 21, "target_met": 21}, "B9": {"VERIFIED": 21, "certified": 21, "target_met": 21}, "C": {"VERIFIED": 21, "certified": 21, "target_met": 5}, "D": {"VERIFIED": 21, "certified": 21, "target_met": 21}, "D2": {"VERIFIED": 21, "certified": 21, "target_met": 21}}, "totals": {"VERIFIED": 147}, "rump_reproofs": {"rump_reproofs": 71, "rump_cache_hits": 76}, "seconds": 79.4139633178711}
+ERRORS 0 [] MANIFEST_MISMATCHES 0

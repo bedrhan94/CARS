@@ -1,0 +1,13 @@
+{
+ "frozen_at": "2026-11-15 21:56:12 +0300",
+ "note": "Frozen before any timed cell of the structural experiment; smoke test on development seed 0 (E3-TS S1) only.",
+ "files": {
+  "STRUCTURAL_PROTOCOL.md": "57e80f5645a8105abada9e2caaa460ccd2b385aa0caaf25e164097b1b79ba757",
+  "struct_session.py": "f6b5ed2713ab16754ca25599f64f90cd66136af27ac16901a27ba5bbb1b2cad4",
+  "run_cell_struct.py": "a2a339af115fbac884833a272c6fe0bd83f6601438a809b34b3400ed7fcbd7b8",
+  "run_plan_struct.py": "4a2f51823760de4e8cc5c8b9f5f5d956ae7bb01ebcf0776b301b77258eb40047",
+  "analyze_struct.py": "31e8662b2cd0ada9bf758c191dccf27cf5c98294d1fb80b66fc1aa5b18d8ebf7",
+  "check_envelope.py": "03ef91ce4911d9552f0bd7dfb04d528e2de3934ac2827303f70fa83eb0598fc5",
+  "check_envelope.json": "c0c64720daaeb5359194725e8bd0ff54a21cfc1ac753b38d68bc5fa827342a1e"
+ }
+}

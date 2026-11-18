@@ -1,0 +1,15 @@
+{
+ "family": "D3-TS",
+ "size": "S2",
+ "seed": 203,
+ "t": 20,
+ "n": 6727,
+ "claims": 42,
+ "max_lambda_lo": 0.0029727467692378996,
+ "max_claim_method": "RPS-EFT",
+ "max_claim_mode": "MT",
+ "proved": true,
+ "lapack_lambda1": 0.0033004870305805185,
+ "ratio_max_claim_to_lambda1": 0.9006994245679635,
+ "seconds": 1178.249594449997
+}

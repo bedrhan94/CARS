@@ -1,0 +1,223 @@
+{
+ "diff": "--- run_sequence_10a (frozen)\n+++ run_sequence_fb\n@@ -1,4 +1,4 @@\n-def run_sequence_10a(family, method, output_dir, target=1e-8, repeat=0, run_order=0, code_hash='',\n+def run_sequence_fb(family, method, output_dir, target=1e-8, repeat=0, run_order=0, code_hash='',\n                      write_artifacts=True, family_tag=None):\n     if method not in NEW:\n         raise ValueError(method)\n@@ -26,12 +26,24 @@\n         def new_anchor_now(reason):\n             nonlocal fcount\n             with tm('estimate'):\n-                try:\n+                if st['anc'] is None:                             # first anchor of the sequence: frozen estimate\n                     lam_t, ev = _estimate(A, st['op_last'], st['evec'])\n-                except RuntimeError:            # previous preconditioner invalidated by a failed factorization\n-                    info['estimate_fallback'] = 'eigsh'          # (PARDISO session reset): start from scratch\n-                    st['op_last'] = None\n-                    lam_t, ev = _estimate(A, None, None)\n+                else:\n+                    try:\n+                        if st['op_last'] is None:\n+                            raise RuntimeError('NO_VALID_PRECONDITIONER')\n+                        lam_t, ev = _estimate(A, st['op_last'], st['evec'])\n+                    except RuntimeError:        # stale/absent preconditioner: REVISION 2 fixed fallback\n+                        st['op_last'] = None\n+                        try:\n+                            fac0 = R6._engine_factor('RPS', A, 'anchor'); fcount += 1     # unshifted A (shift-invert, 0)\n+                            op0 = sla.LinearOperator(A.shape, matvec=fac0.solve, dtype=np.float64)\n+                            lam_t, ev = _estimate(A, op0, st['evec'])\n+                            info['estimate_fallback'] = 'shift-invert'\n+                        except v.CertFail as e0:            # failed attempt is charged (time) and counted\n+                            fcount += 1\n+                            info['estimate_fallback'] = 'shift-invert-failed:' + str(e0.reason) + ';eigsh'\n+                            lam_t, ev = _estimate(A, None, None)\n             info['estimates'] += 1\n             if not (np.isfinite(lam_t) and lam_t > 0):\n                 raise v.CertFail('LAMBDA_NONPOSITIVE')\n",
+ "identity": {
+  "E3-TS|S3|200|B": {
+   "records": 21,
+   "identical": 21,
+   "stored": 21,
+   "fallbacks": 0
+  },
+  "E3-TS|S3|200|B9": {
+   "records": 21,
+   "identical": 21,
+   "stored": 21,
+   "fallbacks": 0
+  },
+  "E3-TS|S3|201|B": {
+   "records": 21,
+   "identical": 21,
+   "stored": 21,
+   "fallbacks": 0
+  },
+  "E3-TS|S3|201|B9": {
+   "records": 21,
+   "identical": 21,
+   "stored": 21,
+   "fallbacks": 0
+  },
+  "E3-TS|S3|202|B": {
+   "records": 21,
+   "identical": 21,
+   "stored": 21,
+   "fallbacks": 0
+  },
+  "E3-TS|S3|202|B9": {
+   "records": 21,
+   "identical": 21,
+   "stored": 21,
+   "fallbacks": 0
+  },
+  "E3-TS|S3|203|B": {
+   "records": 21,
+   "identical": 21,
+   "stored": 21,
+   "fallbacks": 0
+  },
+  "E3-TS|S3|203|B9": {
+   "records": 21,
+   "identical": 21,
+   "stored": 21,
+   "fallbacks": 0
+  },
+  "E3-TS|S3|204|B": {
+   "records": 21,
+   "identical": 21,
+   "stored": 21,
+   "fallbacks": 0
+  },
+  "E3-TS|S3|204|B9": {
+   "records": 21,
+   "identical": 21,
+   "stored": 21,
+   "fallbacks": 0
+  },
+  "D3-TS|S3|200|B": {
+   "records": 21,
+   "identical": 21,
+   "stored": 21,
+   "fallbacks": 0
+  },
+  "D3-TS|S3|200|B9": {
+   "records": 21,
+   "identical": 21,
+   "stored": 21,
+   "fallbacks": 0
+  },
+  "D3-TS|S3|201|B": {
+   "records": 21,
+   "identical": 21,
+   "stored": 21,
+   "fallbacks": 0
+  },
+  "D3-TS|S3|201|B9": {
+   "records": 21,
+   "identical": 21,
+   "stored": 21,
+   "fallbacks": 0
+  },
+  "D3-TS|S3|202|B": {
+   "records": 21,
+   "identical": 21,
+   "stored": 21,
+   "fallbacks": 0
+  },
+  "D3-TS|S3|202|B9": {
+   "records": 21,
+   "identical": 21,
+   "stored": 21,
+   "fallbacks": 0
+  },
+  "D3-TS|S3|203|B": {
+   "records": 21,
+   "identical": 21,
+   "stored": 21,
+   "fallbacks": 0
+  },
+  "D3-TS|S3|203|B9": {
+   "records": 21,
+   "identical": 21,
+   "stored": 21,
+   "fallbacks": 0
+  },
+  "D3-TS|S3|204|B": {
+   "records": 21,
+   "identical": 21,
+   "stored": 21,
+   "fallbacks": 0
+  },
+  "D3-TS|S3|204|B9": {
+   "records": 21,
+   "identical": 21,
+   "stored": 21,
+   "fallbacks": 0
+  }
+ },
+ "forced": {
+  "frozen|B": {
+   "certified": 21,
+   "records": 21,
+   "carry_failures": [
+    5,
+    6,
+    12
+   ],
+   "fallbacks": {
+    "5": "eigsh",
+    "6": "eigsh",
+    "12": "eigsh"
+   },
+   "factor_count": {
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "12": 2
+   },
+   "failure_reasons": []
+  },
+  "frozen|B9": {
+   "certified": 21,
+   "records": 21,
+   "carry_failures": [
+    5,
+    6,
+    12
+   ],
+   "fallbacks": {
+    "5": "eigsh",
+    "6": "eigsh",
+    "12": "eigsh"
+   },
+   "factor_count": {
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "12": 2
+   },
+   "failure_reasons": []
+  },
+  "fixed|B": {
+   "certified": 21,
+   "records": 21,
+   "carry_failures": [
+    5,
+    6,
+    12
+   ],
+   "fallbacks": {
+    "5": "shift-invert",
+    "6": "shift-invert",
+    "12": "shift-invert"
+   },
+   "factor_count": {
+    "4": 1,
+    "5": 3,
+    "6": 3,
+    "12": 3
+   },
+   "failure_reasons": []
+  },
+  "fixed|B9": {
+   "certified": 21,
+   "records": 21,
+   "carry_failures": [
+    5,
+    6,
+    12
+   ],
+   "fallbacks": {
+    "5": "shift-invert",
+    "6": "shift-invert",
+    "12": "shift-invert"
+   },
+   "factor_count": {
+    "4": 1,
+    "5": 3,
+    "6": 3,
+    "12": 3
+   },
+   "failure_reasons": []
+  }
+ },
+ "failures": [],
+ "forced_replay": {
+  "totals": {
+   "VERIFIED": 42
+  },
+  "errors": 0,
+  "rump_reproofs": {
+   "rump_reproofs": 42,
+   "rump_cache_hits": 0
+  }
+ },
+ "ALL_OK": true
+}

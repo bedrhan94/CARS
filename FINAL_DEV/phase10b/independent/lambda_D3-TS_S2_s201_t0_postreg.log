@@ -1,0 +1,1 @@
+L {'family': 'D3-TS', 'size': 'S2', 'seed': 201, 't': 0, 'n': 6727, 'claims': 42, 'max_lambda_lo': 0.002990472467609998, 'max_claim_method': 'RPS-OPT-S09', 'max_claim_mode': 'ST', 'proved': True, 'lapack_lambda1': 0.003322747186233276, 'ratio_max_claim_to_lambda1': 0.900000000000015, 'seconds': 1209.4638531208038}

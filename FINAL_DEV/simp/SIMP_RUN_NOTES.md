@@ -1,0 +1,1 @@
+- 18:07 first launch of run_plan_simp.py failed before any cell (runs directory not created); fixed (mkdir) and relaunched; no data existed.

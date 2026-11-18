@@ -1,0 +1,20 @@
+{
+ "cells": [
+  "E3-TS_S5_s0",
+  "E3-TS_S5_s1",
+  "E3-TS_S5_s2"
+ ],
+ "stop": null,
+ "replay": {
+  "E3-TS_S5_s0": {
+   "VERIFIED": 126
+  },
+  "E3-TS_S5_s1": {
+   "VERIFIED": 126
+  },
+  "E3-TS_S5_s2": {
+   "VERIFIED": 126
+  }
+ },
+ "budget_s": 2230.689167737961
+}

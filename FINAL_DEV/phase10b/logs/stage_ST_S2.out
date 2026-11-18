@@ -1,0 +1,61 @@
+E3-TS_S2_s200_r0_ST attempt 0 exit 0 22.2 s 
+E3-TS_S2_s200_r0_ST replay {'exit': 0, 'seconds': 17.6, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+D3-TS_S2_s200_r0_ST attempt 0 exit 0 10.1 s 
+D3-TS_S2_s200_r0_ST replay {'exit': 0, 'seconds': 8.1, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+E3-TS_S2_s201_r0_ST attempt 0 exit 0 22.2 s 
+E3-TS_S2_s201_r0_ST replay {'exit': 0, 'seconds': 17.6, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+D3-TS_S2_s201_r0_ST attempt 0 exit 0 10.1 s 
+D3-TS_S2_s201_r0_ST replay {'exit': 0, 'seconds': 8.1, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+E3-TS_S2_s202_r0_ST attempt 0 exit 0 21.8 s 
+E3-TS_S2_s202_r0_ST replay {'exit': 0, 'seconds': 17.3, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+D3-TS_S2_s202_r0_ST attempt 0 exit 0 9.7 s 
+D3-TS_S2_s202_r0_ST replay {'exit': 0, 'seconds': 8.1, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+E3-TS_S2_s203_r0_ST attempt 0 exit 0 21.3 s 
+E3-TS_S2_s203_r0_ST replay {'exit': 0, 'seconds': 17.3, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+D3-TS_S2_s203_r0_ST attempt 0 exit 0 9.7 s 
+D3-TS_S2_s203_r0_ST replay {'exit': 0, 'seconds': 8.1, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+E3-TS_S2_s204_r0_ST attempt 0 exit 0 21.3 s 
+E3-TS_S2_s204_r0_ST replay {'exit': 0, 'seconds': 17.3, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+D3-TS_S2_s204_r0_ST attempt 0 exit 0 9.7 s 
+D3-TS_S2_s204_r0_ST replay {'exit': 0, 'seconds': 8.1, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+E3-TS_S2_s200_r1_ST attempt 0 exit 0 21.3 s 
+E3-TS_S2_s200_r1_ST replay {'exit': 0, 'seconds': 17.3, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+D3-TS_S2_s200_r1_ST attempt 0 exit 0 9.7 s 
+D3-TS_S2_s200_r1_ST replay {'exit': 0, 'seconds': 8.1, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+E3-TS_S2_s201_r1_ST attempt 0 exit 0 21.3 s 
+E3-TS_S2_s201_r1_ST replay {'exit': 0, 'seconds': 17.8, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+D3-TS_S2_s201_r1_ST attempt 0 exit 0 9.6 s 
+D3-TS_S2_s201_r1_ST replay {'exit': 0, 'seconds': 8.1, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+E3-TS_S2_s202_r1_ST attempt 0 exit 0 21.8 s 
+E3-TS_S2_s202_r1_ST replay {'exit': 0, 'seconds': 17.3, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+D3-TS_S2_s202_r1_ST attempt 0 exit 0 9.7 s 
+D3-TS_S2_s202_r1_ST replay {'exit': 0, 'seconds': 8.1, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+E3-TS_S2_s203_r1_ST attempt 0 exit 0 21.3 s 
+E3-TS_S2_s203_r1_ST replay {'exit': 0, 'seconds': 17.3, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+D3-TS_S2_s203_r1_ST attempt 0 exit 0 9.7 s 
+D3-TS_S2_s203_r1_ST replay {'exit': 0, 'seconds': 8.1, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+E3-TS_S2_s204_r1_ST attempt 0 exit 0 21.3 s 
+E3-TS_S2_s204_r1_ST replay {'exit': 0, 'seconds': 17.3, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+D3-TS_S2_s204_r1_ST attempt 0 exit 0 9.6 s 
+D3-TS_S2_s204_r1_ST replay {'exit': 0, 'seconds': 8.1, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+E3-TS_S2_s200_r2_ST attempt 0 exit 0 21.4 s 
+E3-TS_S2_s200_r2_ST replay {'exit': 0, 'seconds': 17.3, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+D3-TS_S2_s200_r2_ST attempt 0 exit 0 9.7 s 
+D3-TS_S2_s200_r2_ST replay {'exit': 0, 'seconds': 7.6, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+E3-TS_S2_s201_r2_ST attempt 0 exit 0 21.3 s 
+E3-TS_S2_s201_r2_ST replay {'exit': 0, 'seconds': 17.3, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+D3-TS_S2_s201_r2_ST attempt 0 exit 0 9.7 s 
+D3-TS_S2_s201_r2_ST replay {'exit': 0, 'seconds': 8.1, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+E3-TS_S2_s202_r2_ST attempt 0 exit 0 21.8 s 
+E3-TS_S2_s202_r2_ST replay {'exit': 0, 'seconds': 17.3, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+D3-TS_S2_s202_r2_ST attempt 0 exit 0 9.7 s 
+D3-TS_S2_s202_r2_ST replay {'exit': 0, 'seconds': 8.1, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+E3-TS_S2_s203_r2_ST attempt 0 exit 0 21.3 s 
+E3-TS_S2_s203_r2_ST replay {'exit': 0, 'seconds': 25.3, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+D3-TS_S2_s203_r2_ST attempt 0 exit 0 10.1 s 
+D3-TS_S2_s203_r2_ST replay {'exit': 0, 'seconds': 10.7, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+E3-TS_S2_s204_r2_ST attempt 0 exit 0 21.8 s 
+E3-TS_S2_s204_r2_ST replay {'exit': 0, 'seconds': 25.3, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+D3-TS_S2_s204_r2_ST attempt 0 exit 0 10.1 s 
+D3-TS_S2_s204_r2_ST replay {'exit': 0, 'seconds': 10.6, 'stop': None, 'totals': {'VERIFIED': 147}, 'errors': 0, 'manifest_mismatches': 0}
+STAGE ST_S2 COMPLETE budget_used_h 0.975

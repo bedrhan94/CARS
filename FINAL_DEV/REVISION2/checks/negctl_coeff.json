@@ -1,0 +1,617 @@
+{
+ "sequences": {
+  "NC-E3": {
+   "n": 1944,
+   "faded_elements": 64,
+   "lambda_min": {
+    "0": 0.0005622080644493749,
+    "1": 0.0005513088358757349,
+    "2": 0.0005386945272660381,
+    "3": 0.0005241509684322512,
+    "4": 0.00050588572551305,
+    "5": 0.00047955235530065473,
+    "6": 0.0004350318238737935,
+    "7": 0.0003404780892192948,
+    "8": -4.510310492161933e-16,
+    "9": -3.857278102320388e-16,
+    "10": -5.978527921823148e-16,
+    "11": -3.3462882166633544e-16,
+    "12": -6.235815359181013e-16,
+    "13": -5.825052426101911e-16,
+    "14": -7.875071096660532e-16,
+    "15": 1.2603584581515123e-16,
+    "16": -9.96852327415126e-16,
+    "17": -7.11489600163083e-16,
+    "18": -2.263443790539786e-16,
+    "19": -4.813612003830675e-16,
+    "20": -3.2279889182790016e-16
+   },
+   "arms": {
+    "A": {
+     "certified": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "unverified": {
+      "8": "ANCHOR_FACTORIZATION_FAILED",
+      "9": "RuntimeError",
+      "10": "RuntimeError",
+      "11": "RuntimeError",
+      "12": "RuntimeError",
+      "13": "RuntimeError",
+      "14": "RuntimeError",
+      "15": "RuntimeError",
+      "16": "RuntimeError",
+      "17": "RuntimeError",
+      "18": "RuntimeError",
+      "19": "RuntimeError",
+      "20": "RuntimeError"
+     },
+     "transfers": [],
+     "replay": {
+      "VERIFIED": 21
+     },
+     "lam_over_true_max": 0.9931930096473405,
+     "unverified_reasons": {
+      "ANCHOR_FACTORIZATION_FAILED": 1,
+      "RuntimeError": 12
+     }
+    },
+    "B1": {
+     "certified": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "unverified": {
+      "8": "ANCHOR_FACTORIZATION_FAILED",
+      "9": "ANCHOR_FACTORIZATION_FAILED",
+      "10": "ANCHOR_FACTORIZATION_FAILED",
+      "11": "ANCHOR_FACTORIZATION_FAILED",
+      "12": "ANCHOR_FACTORIZATION_FAILED",
+      "13": "ANCHOR_FACTORIZATION_FAILED",
+      "14": "ANCHOR_FACTORIZATION_FAILED",
+      "15": "ANCHOR_FACTORIZATION_FAILED",
+      "16": "ANCHOR_FACTORIZATION_FAILED",
+      "17": "ANCHOR_FACTORIZATION_FAILED",
+      "18": "ANCHOR_FACTORIZATION_FAILED",
+      "19": "ANCHOR_FACTORIZATION_FAILED",
+      "20": "ANCHOR_FACTORIZATION_FAILED"
+     },
+     "transfers": [],
+     "replay": {
+      "VERIFIED": 21
+     },
+     "lam_over_true_max": 0.9931930096473405,
+     "unverified_reasons": {
+      "ANCHOR_FACTORIZATION_FAILED": 13
+     }
+    },
+    "B": {
+     "certified": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "unverified": {
+      "8": "ANCHOR_FACTORIZATION_FAILED",
+      "9": "ANCHOR_FACTORIZATION_FAILED",
+      "10": "ANCHOR_FACTORIZATION_FAILED",
+      "11": "ANCHOR_FACTORIZATION_FAILED",
+      "12": "ANCHOR_FACTORIZATION_FAILED",
+      "13": "ANCHOR_FACTORIZATION_FAILED",
+      "14": "ANCHOR_FACTORIZATION_FAILED",
+      "15": "ANCHOR_FACTORIZATION_FAILED",
+      "16": "ANCHOR_FACTORIZATION_FAILED",
+      "17": "ANCHOR_FACTORIZATION_FAILED",
+      "18": "ANCHOR_FACTORIZATION_FAILED",
+      "19": "ANCHOR_FACTORIZATION_FAILED",
+      "20": "ANCHOR_FACTORIZATION_FAILED"
+     },
+     "transfers": [],
+     "replay": {
+      "VERIFIED": 21
+     },
+     "lam_over_true_max": 0.8256156302717775,
+     "unverified_reasons": {
+      "ANCHOR_FACTORIZATION_FAILED": 13
+     }
+    },
+    "B9": {
+     "certified": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "unverified": {
+      "8": "ANCHOR_FACTORIZATION_FAILED",
+      "9": "ANCHOR_FACTORIZATION_FAILED",
+      "10": "ANCHOR_FACTORIZATION_FAILED",
+      "11": "ANCHOR_FACTORIZATION_FAILED",
+      "12": "ANCHOR_FACTORIZATION_FAILED",
+      "13": "ANCHOR_FACTORIZATION_FAILED",
+      "14": "ANCHOR_FACTORIZATION_FAILED",
+      "15": "ANCHOR_FACTORIZATION_FAILED",
+      "16": "ANCHOR_FACTORIZATION_FAILED",
+      "17": "ANCHOR_FACTORIZATION_FAILED",
+      "18": "ANCHOR_FACTORIZATION_FAILED",
+      "19": "ANCHOR_FACTORIZATION_FAILED",
+      "20": "ANCHOR_FACTORIZATION_FAILED"
+     },
+     "transfers": [],
+     "replay": {
+      "VERIFIED": 21
+     },
+     "lam_over_true_max": 0.9653464144453536,
+     "unverified_reasons": {
+      "ANCHOR_FACTORIZATION_FAILED": 13
+     }
+    },
+    "C": {
+     "certified": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "unverified": {
+      "8": "ANCHOR_FACTORIZATION_FAILED",
+      "9": "RuntimeError",
+      "10": "RuntimeError",
+      "11": "RuntimeError",
+      "12": "RuntimeError",
+      "13": "RuntimeError",
+      "14": "RuntimeError",
+      "15": "RuntimeError",
+      "16": "RuntimeError",
+      "17": "RuntimeError",
+      "18": "RuntimeError",
+      "19": "RuntimeError",
+      "20": "RuntimeError"
+     },
+     "transfers": [
+      1,
+      2,
+      3,
+      5
+     ],
+     "replay": {
+      "VERIFIED": 21
+     },
+     "lam_over_true_max": 0.9931933674223312,
+     "unverified_reasons": {
+      "ANCHOR_FACTORIZATION_FAILED": 1,
+      "RuntimeError": 12
+     }
+    },
+    "D": {
+     "certified": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "unverified": {
+      "8": "ANCHOR_FACTORIZATION_FAILED",
+      "9": "ANCHOR_FACTORIZATION_FAILED",
+      "10": "ANCHOR_FACTORIZATION_FAILED",
+      "11": "ANCHOR_FACTORIZATION_FAILED",
+      "12": "ANCHOR_FACTORIZATION_FAILED",
+      "13": "ANCHOR_FACTORIZATION_FAILED",
+      "14": "ANCHOR_FACTORIZATION_FAILED",
+      "15": "ANCHOR_FACTORIZATION_FAILED",
+      "16": "ANCHOR_FACTORIZATION_FAILED",
+      "17": "ANCHOR_FACTORIZATION_FAILED",
+      "18": "ANCHOR_FACTORIZATION_FAILED",
+      "19": "ANCHOR_FACTORIZATION_FAILED",
+      "20": "ANCHOR_FACTORIZATION_FAILED"
+     },
+     "transfers": [
+      1,
+      2,
+      3,
+      5
+     ],
+     "replay": {
+      "VERIFIED": 21
+     },
+     "lam_over_true_max": 0.9931933674223312,
+     "unverified_reasons": {
+      "ANCHOR_FACTORIZATION_FAILED": 13
+     }
+    },
+    "D2": {
+     "certified": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "unverified": {
+      "8": "ANCHOR_FACTORIZATION_FAILED",
+      "9": "ANCHOR_FACTORIZATION_FAILED",
+      "10": "ANCHOR_FACTORIZATION_FAILED",
+      "11": "ANCHOR_FACTORIZATION_FAILED",
+      "12": "ANCHOR_FACTORIZATION_FAILED",
+      "13": "ANCHOR_FACTORIZATION_FAILED",
+      "14": "ANCHOR_FACTORIZATION_FAILED",
+      "15": "ANCHOR_FACTORIZATION_FAILED",
+      "16": "ANCHOR_FACTORIZATION_FAILED",
+      "17": "ANCHOR_FACTORIZATION_FAILED",
+      "18": "ANCHOR_FACTORIZATION_FAILED",
+      "19": "ANCHOR_FACTORIZATION_FAILED",
+      "20": "ANCHOR_FACTORIZATION_FAILED"
+     },
+     "transfers": [
+      1,
+      2,
+      3,
+      5
+     ],
+     "replay": {
+      "VERIFIED": 21
+     },
+     "lam_over_true_max": 0.5526360443214735,
+     "unverified_reasons": {
+      "ANCHOR_FACTORIZATION_FAILED": 13
+     }
+    }
+   },
+   "singular_steps": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ]
+  },
+  "NC-D3": {
+   "n": 1445,
+   "faded_elements": 8,
+   "lambda_min": {
+    "0": 0.01360416478126373,
+    "1": 0.01358243862084274,
+    "2": 0.013570641098256564,
+    "3": 0.013555400343040369,
+    "4": 0.013531222742283577,
+    "5": 0.013499995824041822,
+    "6": 0.013464874613412723,
+    "7": 0.01335884056048714,
+    "8": -2.1682135398623043e-15,
+    "9": 1.0292124810322373e-15,
+    "10": -2.5675490221733696e-15,
+    "11": -7.164408483033353e-16,
+    "12": 3.188870234179379e-15,
+    "13": -9.136786110811415e-16,
+    "14": -4.7282638477352286e-18,
+    "15": 2.4849100641738386e-15,
+    "16": -1.6769163013665523e-15,
+    "17": -1.285119244533377e-15,
+    "18": 1.2560294417344398e-15,
+    "19": -1.3278392754735556e-15,
+    "20": 1.8665624601510444e-15
+   },
+   "arms": {
+    "A": {
+     "certified": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "unverified": {
+      "8": "ANCHOR_FACTORIZATION_FAILED",
+      "9": "ANCHOR_FACTORIZATION_FAILED",
+      "10": "ANCHOR_FACTORIZATION_FAILED",
+      "11": "ANCHOR_FACTORIZATION_FAILED",
+      "12": "ANCHOR_FACTORIZATION_FAILED",
+      "13": "ANCHOR_FACTORIZATION_FAILED",
+      "14": "ANCHOR_FACTORIZATION_FAILED",
+      "15": "ANCHOR_FACTORIZATION_FAILED",
+      "16": "ANCHOR_FACTORIZATION_FAILED",
+      "17": "ANCHOR_FACTORIZATION_FAILED",
+      "18": "ANCHOR_FACTORIZATION_FAILED",
+      "19": "ANCHOR_FACTORIZATION_FAILED",
+      "20": "ANCHOR_FACTORIZATION_FAILED"
+     },
+     "transfers": [],
+     "replay": {
+      "VERIFIED": 21
+     },
+     "lam_over_true_max": 0.9064283610248015,
+     "unverified_reasons": {
+      "ANCHOR_FACTORIZATION_FAILED": 13
+     }
+    },
+    "B1": {
+     "certified": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "unverified": {
+      "8": "ANCHOR_FACTORIZATION_FAILED",
+      "9": "ANCHOR_FACTORIZATION_FAILED",
+      "10": "ANCHOR_FACTORIZATION_FAILED",
+      "11": "ANCHOR_FACTORIZATION_FAILED",
+      "12": "ANCHOR_FACTORIZATION_FAILED",
+      "13": "ANCHOR_FACTORIZATION_FAILED",
+      "14": "ANCHOR_FACTORIZATION_FAILED",
+      "15": "ANCHOR_FACTORIZATION_FAILED",
+      "16": "ANCHOR_FACTORIZATION_FAILED",
+      "17": "ANCHOR_FACTORIZATION_FAILED",
+      "18": "ANCHOR_FACTORIZATION_FAILED",
+      "19": "ANCHOR_FACTORIZATION_FAILED",
+      "20": "ANCHOR_FACTORIZATION_FAILED"
+     },
+     "transfers": [],
+     "replay": {
+      "VERIFIED": 21
+     },
+     "lam_over_true_max": 0.9064283610248015,
+     "unverified_reasons": {
+      "ANCHOR_FACTORIZATION_FAILED": 13
+     }
+    },
+    "B": {
+     "certified": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "unverified": {
+      "8": "ANCHOR_FACTORIZATION_FAILED",
+      "9": "ANCHOR_FACTORIZATION_FAILED",
+      "10": "ANCHOR_FACTORIZATION_FAILED",
+      "11": "ANCHOR_FACTORIZATION_FAILED",
+      "12": "ANCHOR_FACTORIZATION_FAILED",
+      "13": "ANCHOR_FACTORIZATION_FAILED",
+      "14": "ANCHOR_FACTORIZATION_FAILED",
+      "15": "ANCHOR_FACTORIZATION_FAILED",
+      "16": "ANCHOR_FACTORIZATION_FAILED",
+      "17": "ANCHOR_FACTORIZATION_FAILED",
+      "18": "ANCHOR_FACTORIZATION_FAILED",
+      "19": "ANCHOR_FACTORIZATION_FAILED",
+      "20": "ANCHOR_FACTORIZATION_FAILED"
+     },
+     "transfers": [],
+     "replay": {
+      "VERIFIED": 21
+     },
+     "lam_over_true_max": 0.5091820925500875,
+     "unverified_reasons": {
+      "ANCHOR_FACTORIZATION_FAILED": 13
+     }
+    },
+    "B9": {
+     "certified": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "unverified": {
+      "8": "ANCHOR_FACTORIZATION_FAILED",
+      "9": "ANCHOR_FACTORIZATION_FAILED",
+      "10": "ANCHOR_FACTORIZATION_FAILED",
+      "11": "ANCHOR_FACTORIZATION_FAILED",
+      "12": "ANCHOR_FACTORIZATION_FAILED",
+      "13": "ANCHOR_FACTORIZATION_FAILED",
+      "14": "ANCHOR_FACTORIZATION_FAILED",
+      "15": "ANCHOR_FACTORIZATION_FAILED",
+      "16": "ANCHOR_FACTORIZATION_FAILED",
+      "17": "ANCHOR_FACTORIZATION_FAILED",
+      "18": "ANCHOR_FACTORIZATION_FAILED",
+      "19": "ANCHOR_FACTORIZATION_FAILED",
+      "20": "ANCHOR_FACTORIZATION_FAILED"
+     },
+     "transfers": [],
+     "replay": {
+      "VERIFIED": 21
+     },
+     "lam_over_true_max": 0.9165277665901576,
+     "unverified_reasons": {
+      "ANCHOR_FACTORIZATION_FAILED": 13
+     }
+    },
+    "C": {
+     "certified": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "unverified": {
+      "8": "ANCHOR_FACTORIZATION_FAILED",
+      "9": "ANCHOR_FACTORIZATION_FAILED",
+      "10": "ANCHOR_FACTORIZATION_FAILED",
+      "11": "ANCHOR_FACTORIZATION_FAILED",
+      "12": "ANCHOR_FACTORIZATION_FAILED",
+      "13": "ANCHOR_FACTORIZATION_FAILED",
+      "14": "ANCHOR_FACTORIZATION_FAILED",
+      "15": "ANCHOR_FACTORIZATION_FAILED",
+      "16": "ANCHOR_FACTORIZATION_FAILED",
+      "17": "ANCHOR_FACTORIZATION_FAILED",
+      "18": "ANCHOR_FACTORIZATION_FAILED",
+      "19": "ANCHOR_FACTORIZATION_FAILED",
+      "20": "ANCHOR_FACTORIZATION_FAILED"
+     },
+     "transfers": [
+      1,
+      2,
+      3,
+      5
+     ],
+     "replay": {
+      "VERIFIED": 21
+     },
+     "lam_over_true_max": 0.9079131807233087,
+     "unverified_reasons": {
+      "ANCHOR_FACTORIZATION_FAILED": 13
+     }
+    },
+    "D": {
+     "certified": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "unverified": {
+      "8": "ANCHOR_FACTORIZATION_FAILED",
+      "9": "ANCHOR_FACTORIZATION_FAILED",
+      "10": "ANCHOR_FACTORIZATION_FAILED",
+      "11": "ANCHOR_FACTORIZATION_FAILED",
+      "12": "ANCHOR_FACTORIZATION_FAILED",
+      "13": "ANCHOR_FACTORIZATION_FAILED",
+      "14": "ANCHOR_FACTORIZATION_FAILED",
+      "15": "ANCHOR_FACTORIZATION_FAILED",
+      "16": "ANCHOR_FACTORIZATION_FAILED",
+      "17": "ANCHOR_FACTORIZATION_FAILED",
+      "18": "ANCHOR_FACTORIZATION_FAILED",
+      "19": "ANCHOR_FACTORIZATION_FAILED",
+      "20": "ANCHOR_FACTORIZATION_FAILED"
+     },
+     "transfers": [
+      1,
+      2,
+      3,
+      5
+     ],
+     "replay": {
+      "VERIFIED": 21
+     },
+     "lam_over_true_max": 0.9079131807233087,
+     "unverified_reasons": {
+      "ANCHOR_FACTORIZATION_FAILED": 13
+     }
+    },
+    "D2": {
+     "certified": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "unverified": {
+      "8": "ANCHOR_FACTORIZATION_FAILED",
+      "9": "ANCHOR_FACTORIZATION_FAILED",
+      "10": "ANCHOR_FACTORIZATION_FAILED",
+      "11": "ANCHOR_FACTORIZATION_FAILED",
+      "12": "ANCHOR_FACTORIZATION_FAILED",
+      "13": "ANCHOR_FACTORIZATION_FAILED",
+      "14": "ANCHOR_FACTORIZATION_FAILED",
+      "15": "ANCHOR_FACTORIZATION_FAILED",
+      "16": "ANCHOR_FACTORIZATION_FAILED",
+      "17": "ANCHOR_FACTORIZATION_FAILED",
+      "18": "ANCHOR_FACTORIZATION_FAILED",
+      "19": "ANCHOR_FACTORIZATION_FAILED",
+      "20": "ANCHOR_FACTORIZATION_FAILED"
+     },
+     "transfers": [
+      1,
+      2,
+      3,
+      5
+     ],
+     "replay": {
+      "VERIFIED": 21
+     },
+     "lam_over_true_max": 0.504402938457696,
+     "unverified_reasons": {
+      "ANCHOR_FACTORIZATION_FAILED": 13
+     }
+    }
+   },
+   "singular_steps": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ]
+  }
+ },
+ "violations": [],
+ "ALL_OK": true,
+ "seconds": 22.93744993209839
+}

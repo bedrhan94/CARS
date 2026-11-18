@@ -1,0 +1,42 @@
+{
+ "emin": 1e-09,
+ "target_rule": "relative 1e-8 * ||u_window_start||_2",
+ "decided_at": "2026-11-15 17:37:46",
+ "evidence": {
+  "emin_1e9_A_certified": {
+   "early": 21,
+   "late": 21
+  },
+  "chosen_A_target_met": {
+   "early": 7,
+   "late": 0
+  }
+ },
+ "targets": {
+  "301|early": "0x1.95a0794afac3bp-13",
+  "301|late": "0x1.ef14dd9ab5ec2p-16",
+  "302|early": "0x1.9f5ca6d30c764p-14",
+  "302|late": "0x1.2a4be94842abcp-16",
+  "303|early": "0x1.e0be33b6092a0p-15",
+  "303|late": "0x1.938fc299aaf6ep-17",
+  "304|early": "0x1.2ebdef93b770fp-15",
+  "304|late": "0x1.24ff95f4d1f7cp-17",
+  "305|early": "0x1.95a07c334ef3ep-16",
+  "305|late": "0x1.bead247385671p-18"
+ },
+ "eval_frozen_files": {
+  "coeff_hex_301_early.json": "0cdbd15331de8491d03d9d79ff8bd52da979791f350a04f3230ea46f72dd6b69",
+  "coeff_hex_301_late.json": "a85128e00b44cdf25407091573de87b5651984b47bd3f75f51cab377313a374e",
+  "coeff_hex_302_early.json": "7112956a4f8159a42e13fac47fbe2380937cf35661cdee46b5c6cda692ea1e31",
+  "coeff_hex_302_late.json": "bd0890c5d2fe16fd40d293076f6048819d145392ddbf44ee9ed137db92ba593e",
+  "coeff_hex_303_early.json": "66bcfe68f8b31f3dd28da5b5b10d2eb523b18344b06c3415caefe6334b92c71a",
+  "coeff_hex_303_late.json": "0342f4908bc212960ca81e9532c4ad6ec9d8d49af784fd8511634dc4c7c8311e",
+  "coeff_hex_304_early.json": "9cce67a3e00439d23fbddca44fbdd52477643567acf871ec416682cc2f76e696",
+  "coeff_hex_304_late.json": "54a4c6cac591640e5d274d53a89c3b259f7789fb721fa894d984b69c38036560",
+  "coeff_hex_305_early.json": "3eb0987c2c1987662dbeab33147bacfcfb310eda41095b5fd7f208a014f6afdf",
+  "coeff_hex_305_late.json": "a5f90891c28bbf439577de5b09c2fc2303248f492da7fe6fc9b669e7c490c757",
+  "simp_hashes.json": "b06e4fa7ebd112a511e0f8a208278cfd8d65d4da685b39e7ac48f76c2cb96f89",
+  "simp_manifest.json": "e30f96c440ef1182f01f8dddd17a43dfb3803be3b81c215837cbf3ce561f9f6d"
+ },
+ "frozen_at": "2026-11-15 17:48:53"
+}

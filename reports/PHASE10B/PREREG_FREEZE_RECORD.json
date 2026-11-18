@@ -1,0 +1,18 @@
+{
+ "frozen_at": "2026-11-15 15:08:19 +0300",
+ "documents": {
+  "reports/PHASE10B/PHASE10B_PREREGISTRATION_FINAL.md": "fafd2ed697c0ef450affca96eeb741b8536a65f7660b07a75f1c9e798cd82ace",
+  "reports/PHASE10B/PHASE10B_PREDATA_AMENDMENTS.md": "75e032ce582d413e01f6adde68d2c152121321badf2a9001c90479be4931c535",
+  "reports/PHASE10B/PHASE10B_CODE_FREEZE.json": "0e5b1dc77823d5736d078d66801ad08390d325f665ea6bf7282eac024b4e120a",
+  "reports/PHASE10B/PHASE10B_ENVIRONMENT.json": "824fbee17581c18e34682452bb22d5b0fbb5c632f58d8c18a5dcd34c16627635",
+  "reports/PHASE10A/PHASE10B_PREREGISTRATION_DRAFT.md": "cba4a12d953f1e8dd29c6627de36911a3313d930d5bb91ca727183fcd0cfa986"
+ },
+ "code_aggregate_sha256": "f305dda539b6a51e42de5fd7862265a5233120dc9fa91eb742e3b76873924977",
+ "heldout_scan": {
+  "files_walked": 59284,
+  "json_scanned": 3980,
+  "hits": 0,
+  "scanned_at": "2026-11-15 15:08:19"
+ },
+ "statement": "No held-out input (seeds 200-204) existed or had been inspected when this record was written."
+}

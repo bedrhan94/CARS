@@ -1,0 +1,9 @@
+22:03:31 START plan; other python processes: 0
+22:15:53 E3-TS_S5_s0 rc=0 why=None 742.0s
+22:28:18 E3-TS_S5_s1 rc=0 why=None 744.6s
+22:40:42 E3-TS_S5_s2 rc=0 why=None 744.1s
+22:40:42 CELLS DONE 3; stop=None
+23:20:45 replay E3-TS_S5_s0 rc=0 {'VERIFIED': 126} errors=0 2402.7s
+00:02:19 replay E3-TS_S5_s1 rc=0 {'VERIFIED': 126} errors=0 2494.4s
+00:47:05 replay E3-TS_S5_s2 rc=0 {'VERIFIED': 126} errors=0 2686.2s
+00:47:05 PLAN DONE

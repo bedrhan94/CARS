@@ -1,0 +1,25 @@
+E3-TS|S3|200|B {'records': 21, 'identical': 21, 'stored': 21, 'fallbacks': 0}
+E3-TS|S3|200|B9 {'records': 21, 'identical': 21, 'stored': 21, 'fallbacks': 0}
+E3-TS|S3|201|B {'records': 21, 'identical': 21, 'stored': 21, 'fallbacks': 0}
+E3-TS|S3|201|B9 {'records': 21, 'identical': 21, 'stored': 21, 'fallbacks': 0}
+E3-TS|S3|202|B {'records': 21, 'identical': 21, 'stored': 21, 'fallbacks': 0}
+E3-TS|S3|202|B9 {'records': 21, 'identical': 21, 'stored': 21, 'fallbacks': 0}
+E3-TS|S3|203|B {'records': 21, 'identical': 21, 'stored': 21, 'fallbacks': 0}
+E3-TS|S3|203|B9 {'records': 21, 'identical': 21, 'stored': 21, 'fallbacks': 0}
+E3-TS|S3|204|B {'records': 21, 'identical': 21, 'stored': 21, 'fallbacks': 0}
+E3-TS|S3|204|B9 {'records': 21, 'identical': 21, 'stored': 21, 'fallbacks': 0}
+D3-TS|S3|200|B {'records': 21, 'identical': 21, 'stored': 21, 'fallbacks': 0}
+D3-TS|S3|200|B9 {'records': 21, 'identical': 21, 'stored': 21, 'fallbacks': 0}
+D3-TS|S3|201|B {'records': 21, 'identical': 21, 'stored': 21, 'fallbacks': 0}
+D3-TS|S3|201|B9 {'records': 21, 'identical': 21, 'stored': 21, 'fallbacks': 0}
+D3-TS|S3|202|B {'records': 21, 'identical': 21, 'stored': 21, 'fallbacks': 0}
+D3-TS|S3|202|B9 {'records': 21, 'identical': 21, 'stored': 21, 'fallbacks': 0}
+D3-TS|S3|203|B {'records': 21, 'identical': 21, 'stored': 21, 'fallbacks': 0}
+D3-TS|S3|203|B9 {'records': 21, 'identical': 21, 'stored': 21, 'fallbacks': 0}
+D3-TS|S3|204|B {'records': 21, 'identical': 21, 'stored': 21, 'fallbacks': 0}
+D3-TS|S3|204|B9 {'records': 21, 'identical': 21, 'stored': 21, 'fallbacks': 0}
+FORCED frozen B {'certified': 21, 'records': 21, 'carry_failures': [5, 6, 12], 'fallbacks': {'5': 'eigsh', '6': 'eigsh', '12': 'eigsh'}, 'factor_count': {'4': 1, '5': 2, '6': 2, '12': 2}, 'failure_reasons': []}
+FORCED frozen B9 {'certified': 21, 'records': 21, 'carry_failures': [5, 6, 12], 'fallbacks': {'5': 'eigsh', '6': 'eigsh', '12': 'eigsh'}, 'factor_count': {'4': 1, '5': 2, '6': 2, '12': 2}, 'failure_reasons': []}
+FORCED fixed B {'certified': 21, 'records': 21, 'carry_failures': [5, 6, 12], 'fallbacks': {'5': 'shift-invert', '6': 'shift-invert', '12': 'shift-invert'}, 'factor_count': {'4': 1, '5': 3, '6': 3, '12': 3}, 'failure_reasons': []}
+FORCED fixed B9 {'certified': 21, 'records': 21, 'carry_failures': [5, 6, 12], 'fallbacks': {'5': 'shift-invert', '6': 'shift-invert', '12': 'shift-invert'}, 'factor_count': {'4': 1, '5': 3, '6': 3, '12': 3}, 'failure_reasons': []}
+ALL_OK True [] {'totals': {'VERIFIED': 42}, 'errors': 0, 'rump_reproofs': {'rump_reproofs': 42, 'rump_cache_hits': 0}}

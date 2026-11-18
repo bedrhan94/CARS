@@ -1,0 +1,72 @@
+{
+ "arms": {
+  "A": {
+   "VERIFIED": 21,
+   "certified": 21,
+   "target_met": 21
+  },
+  "B": {
+   "VERIFIED": 21,
+   "certified": 21,
+   "target_met": 21
+  },
+  "B1": {
+   "VERIFIED": 21,
+   "certified": 21,
+   "target_met": 21
+  },
+  "B9": {
+   "VERIFIED": 21,
+   "certified": 21,
+   "target_met": 21
+  },
+  "C": {
+   "VERIFIED": 21,
+   "certified": 21,
+   "target_met": 21
+  },
+  "D": {
+   "VERIFIED": 21,
+   "certified": 21,
+   "target_met": 21
+  },
+  "D2": {
+   "VERIFIED": 21,
+   "certified": 21,
+   "target_met": 21
+  }
+ },
+ "errors": [],
+ "totals": {
+  "VERIFIED": 147
+ },
+ "manifest_mismatches": [],
+ "certificate_views": {
+  "A|D3-TS|S2|202": {
+   "0": "2375700479613cff3fa25778a7f9872053890cb5bacd25583b3de024a98fcd82"
+  },
+  "B|D3-TS|S2|202": {
+   "0": "829c51c2bd6946841f2e018786827d41fd09c5fd2b37e8686f10fe4453a009df"
+  },
+  "B1|D3-TS|S2|202": {
+   "0": "65ac2b78329775f3beaf5810916b60a824214cf7d41ecfaf2f82d778a01ff51d"
+  },
+  "B9|D3-TS|S2|202": {
+   "0": "4c72954288aaebbac6fb39052d9a5ba03daf99eea5b6f5529bd3d91c2e42f4b1"
+  },
+  "C|D3-TS|S2|202": {
+   "0": "e7588498f479644e5f3242b325a91c007f6a90efefa5f8ea3b2f5ce6c3c9dd0b"
+  },
+  "D|D3-TS|S2|202": {
+   "0": "ee23f31fb27e80a28e1b1c6a7e00830dfd498d1052eae12172cf6f69d3503c6a"
+  },
+  "D2|D3-TS|S2|202": {
+   "0": "d952fa7f8ab8dacd9b78757d06c1fa4758d0dae7b416ba21e538275a102ddd98"
+  }
+ },
+ "rump_reproofs": {
+  "rump_reproofs": 82,
+  "rump_cache_hits": 65
+ },
+ "seconds": 8.161134958267212
+}

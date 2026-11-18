@@ -1,0 +1,124 @@
+{
+ "_doc": "Every Arb eigenvalue-proof attempt of Phase 10B (registered plan A8; repeats per BUDGET_AND_CHECK_INCIDENTS.md). Minutes from file timestamps (first batch) or from the run logs (repeats). 'json' is the result file in phase10b/independent/ when a run finished. Post-registration completion runs are attempts of kind 'post-registration' and are not part of the registered validation.",
+ "proofs": [
+  {
+   "family": "E3-TS",
+   "size": "S2",
+   "seed": 201,
+   "t": 0,
+   "n": 6084,
+   "role": "mandatory",
+   "attempts": [
+    {
+     "kind": "registered",
+     "result": "proved",
+     "minutes": 28.5,
+     "json": "lambda_E3-TS_S2_s201_t0.json"
+    }
+   ]
+  },
+  {
+   "family": "E3-TS",
+   "size": "S2",
+   "seed": 203,
+   "t": 20,
+   "n": 6084,
+   "role": "mandatory",
+   "attempts": [
+    {
+     "kind": "registered",
+     "result": "crashed (memory)",
+     "minutes": 20.7
+    },
+    {
+     "kind": "registered repeat",
+     "result": "proved",
+     "minutes": 26.4,
+     "json": "lambda_E3-TS_S2_s203_t20.json"
+    }
+   ]
+  },
+  {
+   "family": "D3-TS",
+   "size": "S2",
+   "seed": 201,
+   "t": 0,
+   "n": 6727,
+   "role": "mandatory",
+   "attempts": [
+    {
+     "kind": "registered",
+     "result": "crashed (memory)",
+     "minutes": 20.7
+    },
+    {
+     "kind": "registered repeat",
+     "result": "cap reached",
+     "minutes": 30.8
+    },
+    {
+     "kind": "post-registration",
+     "result": "proved",
+     "minutes": 20.2,
+     "json": "lambda_D3-TS_S2_s201_t0_postreg.json"
+    }
+   ]
+  },
+  {
+   "family": "D3-TS",
+   "size": "S2",
+   "seed": 203,
+   "t": 20,
+   "n": 6727,
+   "role": "mandatory",
+   "attempts": [
+    {
+     "kind": "registered",
+     "result": "crashed (memory)",
+     "minutes": 20.8
+    },
+    {
+     "kind": "registered repeat",
+     "result": "cap reached",
+     "minutes": 31.2
+    },
+    {
+     "kind": "post-registration",
+     "result": "proved",
+     "minutes": 19.6,
+     "json": "lambda_D3-TS_S2_s203_t20_postreg.json"
+    }
+   ]
+  },
+  {
+   "family": "E3-TS",
+   "size": "S3",
+   "seed": 202,
+   "t": 10,
+   "n": 13872,
+   "role": "optional",
+   "attempts": [
+    {
+     "kind": "registered",
+     "result": "cap reached",
+     "minutes": 30.0
+    }
+   ]
+  },
+  {
+   "family": "D3-TS",
+   "size": "S3",
+   "seed": 202,
+   "t": 10,
+   "n": 13689,
+   "role": "optional",
+   "attempts": [
+    {
+     "kind": "registered",
+     "result": "cap reached",
+     "minutes": 30.0
+    }
+   ]
+  }
+ ]
+}

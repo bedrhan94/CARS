@@ -1,0 +1,62 @@
+START plan; other python processes: 0
+301_early_r0 rc=0 why=None 71.6s
+replay 301_early_r0 rc=0 {'VERIFIED': 168} errors=0 80.2s
+301_late_r0 rc=0 why=None 193.7s
+replay 301_late_r0 rc=0 {'VERIFIED': 168} errors=0 63.6s
+302_early_r0 rc=0 why=None 68.6s
+replay 302_early_r0 rc=0 {'VERIFIED': 168} errors=0 81.2s
+302_late_r0 rc=0 why=None 137.9s
+replay 302_late_r0 rc=0 {'VERIFIED': 168} errors=0 64.7s
+303_early_r0 rc=0 why=None 70.1s
+replay 303_early_r0 rc=0 {'VERIFIED': 168} errors=0 75.8s
+303_late_r0 rc=0 why=None 112.0s
+replay 303_late_r0 rc=0 {'VERIFIED': 168} errors=0 64.2s
+304_early_r0 rc=0 why=None 65.2s
+replay 304_early_r0 rc=0 {'VERIFIED': 168} errors=0 74.3s
+304_late_r0 rc=0 why=None 98.8s
+replay 304_late_r0 rc=0 {'VERIFIED': 168} errors=0 65.2s
+305_early_r0 rc=0 why=None 66.2s
+replay 305_early_r0 rc=0 {'VERIFIED': 168} errors=0 75.8s
+305_late_r0 rc=0 why=None 88.3s
+replay 305_late_r0 rc=0 {'VERIFIED': 168} errors=0 64.3s
+301_early_r1 rc=0 why=None 71.2s
+replay 301_early_r1 rc=0 {'VERIFIED': 168} errors=0 75.4s
+301_late_r1 rc=0 why=None 193.2s
+replay 301_late_r1 rc=0 {'VERIFIED': 168} errors=0 60.5s
+302_early_r1 rc=0 why=None 68.7s
+replay 302_early_r1 rc=0 {'VERIFIED': 168} errors=0 73.4s
+302_late_r1 rc=0 why=None 137.8s
+replay 302_late_r1 rc=0 {'VERIFIED': 168} errors=0 63.1s
+303_early_r1 rc=0 why=None 68.2s
+replay 303_early_r1 rc=0 {'VERIFIED': 168} errors=0 74.2s
+303_late_r1 rc=0 why=None 114.6s
+replay 303_late_r1 rc=0 {'VERIFIED': 168} errors=0 63.1s
+304_early_r1 rc=0 why=None 66.7s
+replay 304_early_r1 rc=0 {'VERIFIED': 168} errors=0 73.1s
+304_late_r1 rc=0 why=None 101.6s
+replay 304_late_r1 rc=0 {'VERIFIED': 168} errors=0 63.5s
+305_early_r1 rc=0 why=None 67.7s
+replay 305_early_r1 rc=0 {'VERIFIED': 168} errors=0 74.1s
+305_late_r1 rc=0 why=None 90.9s
+replay 305_late_r1 rc=0 {'VERIFIED': 168} errors=0 63.5s
+301_early_r2 rc=0 why=None 73.1s
+replay 301_early_r2 rc=0 {'VERIFIED': 168} errors=0 74.0s
+301_late_r2 rc=0 why=None 199.9s
+replay 301_late_r2 rc=0 {'VERIFIED': 168} errors=0 60.5s
+302_early_r2 rc=0 why=None 70.7s
+replay 302_early_r2 rc=0 {'VERIFIED': 168} errors=0 73.6s
+302_late_r2 rc=0 why=None 140.8s
+replay 302_late_r2 rc=0 {'VERIFIED': 168} errors=0 64.0s
+303_early_r2 rc=0 why=None 69.2s
+replay 303_early_r2 rc=0 {'VERIFIED': 168} errors=0 74.6s
+303_late_r2 rc=0 why=None 114.6s
+replay 303_late_r2 rc=0 {'VERIFIED': 168} errors=0 65.0s
+304_early_r2 rc=0 why=None 66.7s
+replay 304_early_r2 rc=0 {'VERIFIED': 168} errors=0 72.7s
+304_late_r2 rc=0 why=None 101.0s
+replay 304_late_r2 rc=0 {'VERIFIED': 168} errors=0 64.6s
+305_early_r2 rc=0 why=None 67.2s
+replay 305_early_r2 rc=0 {'VERIFIED': 168} errors=0 74.1s
+305_late_r2 rc=0 why=None 91.9s
+replay 305_late_r2 rc=0 {'VERIFIED': 168} errors=0 64.0s
+PLAN DONE cells=30 stop=None
